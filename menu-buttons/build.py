@@ -20,7 +20,8 @@ class YamlIncludeLoader(yaml.SafeLoader):
 
 YamlIncludeLoader.add_constructor('!include', YamlIncludeLoader.include)
 
-
 with open(sys.argv[1], 'r') as f:
-    data = yaml.load(f, YamlIncludeLoader)
+    menu_buttons = yaml.load(f, YamlIncludeLoader)
+
+if __name__ == "__main__":
     print(json.dumps(data))
