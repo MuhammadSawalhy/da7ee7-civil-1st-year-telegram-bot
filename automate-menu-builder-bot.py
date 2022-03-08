@@ -71,15 +71,6 @@ process.append("/langar")
 # print(*process, sep="\n")
 # exit()
 
-process = deque([
-    "🎛 Buttons Editor",
-    "➕ Add Button",
-    "الترم الأول a",
-    "➕ Add Button",
-    "الترم الثاني a",
-    {'type': 'click-button', 'name': '⬆️'}
-])
-
 
 def get_message():
     try:
