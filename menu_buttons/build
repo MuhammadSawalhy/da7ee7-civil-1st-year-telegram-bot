@@ -24,4 +24,4 @@ with open(sys.argv[1], 'r') as f:
     menu_buttons = yaml.load(f, YamlIncludeLoader)
 
 if __name__ == "__main__":
-    print(json.dumps(data))
+    print(json.dumps(menu_buttons))
