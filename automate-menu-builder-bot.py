@@ -66,6 +66,7 @@ build_menu_buttons(main_menu)
 process.append("🛑 Stop Editor")
 process.append("📝 Posts Editor")
 build_menu_messages(main_menu)
+process.append("🛑 Stop Editor")
 
 process.append("/langar")
 # print(*process, sep="\n")
