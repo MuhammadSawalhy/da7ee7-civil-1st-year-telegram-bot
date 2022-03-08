@@ -1,1 +1,6 @@
+env/
+__pycache__/
+
+.env
+telethon.session
 menu-buttons/main.json

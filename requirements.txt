@@ -1,0 +1,7 @@
+pyaes==1.6.1
+pyasn1==0.4.8
+pycodestyle==2.8.0
+python-dotenv==0.19.2
+rsa==4.8
+Telethon==1.24.0
+toml==0.10.2
