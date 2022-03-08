@@ -3,4 +3,4 @@ __pycache__/
 
 .env
 telethon.session
-menu-buttons/main.json
+menu_buttons/main.json
