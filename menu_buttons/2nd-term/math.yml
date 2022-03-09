@@ -1,0 +1,20 @@
+- name: محاضرات
+  messages:
+  - |
+    https://drive.google.com/drive/u/0/folders/12_tfnrEKkqgPPMBqrhCPvAkVNIbKL2qn
+- name: مذكرات
+  messages:
+  - |
+    https://drive.google.com/drive/u/0/folders/12o5Nn8EcWYb6otwH_5xnCETm4myo_9Oj
+- name: شيتات
+  messages:
+  - |
+    https://drive.google.com/drive/u/0/folders/18LJgfLzxHESSPhZ79OJ6taVVEyi5Gbed
+- name: تلخيص
+  messages:
+  - |
+    https://drive.google.com/drive/u/0/folders/176aFQj50tzsm6Q9aB0cGJIjiQgJ8VpvE
+- name: امتحانات
+  messages:
+  - |
+    https://drive.google.com/drive/u/0/folders/12pfIQagBGKyZnysYhItFl2V38mNGD_Cm

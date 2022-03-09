@@ -1,0 +1,74 @@
+- name: 👈 فيديوهات
+  menu_buttons:
+  - name: فيديوهات الدكاترة
+    menu_buttons:
+    - name: د. مجدي خلف
+      messages:
+      - |
+        https://www.youtube.com/playlist?list=PLODsgjy_5GdqwrAaE1S6R543lZqxunQI6
+    - name: د. عبد الله سلامة
+      messages:
+      - |
+        1. https://www.youtube.com/watch?v=-CEuOaKklUY&t=541s
+
+        2. https://www.youtube.com/watch?v=NweFeJEMzUE
+
+        3. https://www.youtube.com/watch?v=dWxbMJzNw38
+    - name: د. طارق عثمان
+      messages:
+      - |
+        1. https://www.youtube.com/watch?v=xE5X-68pODc&t=2997s
+
+        2. https://www.youtube.com/watch?v=rMrPxerpzHE&t=1994s
+
+        3. https://www.youtube.com/watch?v=a5H5bPIB6N0
+
+        4. https://www.youtube.com/watch?v=lgMbIx8mZAs
+
+        5. https://www.youtube.com/watch?v=8gtGEuP4usg
+  - name: فيديوهات المعيدين
+    menu_buttons:
+    - name: م. محمد صلاح
+      messages:
+      - |
+        https://www.youtube.com/playlist?list=PLR2RsKKRngz7TgBOq1yaaARjAMGGoP2V7
+    - name: م. الليثي
+      messages:
+      - |
+        https://www.youtube.com/playlist?list=PLCaeqXCPMbYm5qgnnmgXBd94VrsPBq524
+    - name: م. عسكر
+      messages:
+      - |
+        https://www.youtube.com/playlist?list=PLEeNs4S0UvDzohtnBbBgEVIEsyxofmND6
+    - name: م. محمد عبد الحميد
+      messages:
+      - |
+        https://www.youtube.com/channel/UCiQ7CK0TaNe9df9-Zg5GB2A
+- name: 👈 المحاضرات
+  messages:
+  - |
+    د. عبد الله سلامة 
+    https://drive.google.com/drive/u/0/folders/1-ggZy4xGHDqPu-UuqwTueT8pI-FUGpOJ
+- name: 👈 المذكرات
+  menu_buttons:
+  - name: م. محمد عبد الحميد 👷‍♂️
+    messages:
+    - |
+      https://drive.google.com/drive/u/0/folders/107mIShBd2sQjzRn9xgNX0LGTQxIwlsMz
+  - name: م. عبد الله مرواد 👷‍♂️
+    messages:
+    - |
+      https://drive.google.com/drive/u/0/folders/11WIDfFBv8Ye1DNebJ9R7Zy5bztxE9iu0
+  - name: م. البلبيسي  👷‍♂️
+    messages:
+    - |
+      https://drive.google.com/drive/u/0/folders/10kvQ3OX8d9vH8mF4bF4wDSwWRVtK7YRV
+  - name: م. محمد عسكر 👷‍♂️
+    messages:
+    - |
+      https://drive.google.com/drive/u/0/folders/11Y3FypjnDaNZBMbSSECNU0n8EIo4x62U
+- name: 👈 الكويزات
+  messages:
+  - |
+    https://drive.google.com/drive/u/0/folders/11d4UV55zwOJQhXoGdePRt0DPpHtNpSCY
+

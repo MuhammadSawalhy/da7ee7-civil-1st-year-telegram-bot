@@ -7,6 +7,7 @@ from telethon.sync import TelegramClient, events
 from dotenv import dotenv_values
 from collections import deque
 from utils import debounce_async
+from menu_buttons import main_menu
 
 logging.basicConfig(format='[%(levelname)-7s %(asctime)s] %(name)s: %(message)s',
                     level=logging.INFO)
@@ -62,20 +63,14 @@ def build_menu_buttons(menu):  # recursively
 def build_menu_messages(menu):
     for row_buttons in menu:
         for button in row_buttons:
-            name = button.get("name")
-            messages = button.get("messages")
-            sub_menu = button.get("menu_buttons")
-            if messages:
-                process.append(name)
+            if messages := button.get("messages"):
+                process.append(button["name"])
                 for message in messages:
                     process.append("➕ Add Message")
                     process.append(message)
-            if sub_menu:
+            if sub_menu := button.get("menu_buttons"):
                 build_menu_messages(sub_menu)
 
-
-with open("./menu_buttons/main.json", "r") as file:
-    main_menu = json.loads(file.read())
 
 process.append("🎛 Buttons Editor")
 build_menu_buttons(main_menu)
@@ -87,8 +82,8 @@ process.append("🛑 Stop Editor")
 
 process.append("/langar")
 # TODO: test with snapshots instead
-# print(*process, sep="\n")
-# exit()
+print(*process, sep="\n")
+exit()
 
 
 def get_message():

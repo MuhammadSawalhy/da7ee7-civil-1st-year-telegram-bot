@@ -1,0 +1,23 @@
+
+- name: 🤞 المحاضرات
+  menu_buttons:
+  - name: د. السيد أحمد
+    messages:
+    - |
+      https://drive.google.com/drive/u/0/folders/1h1Rn5yux4wXUxeq94-giRKFRJFe_fayx
+  - name: د. لؤي
+    messages:
+    - |
+      https://drive.google.com/drive/u/0/folders/1gS2LyDarbhI48Xlj-hPbqPyUrAV4ds5g
+- name: 🤞 المذكرات
+  messages:
+  - |
+    https://drive.google.com/drive/u/0/folders/1-ChDUnOq8Ay8Q93t2J42dUmN3yrDkpO3
+- name: 🤞 المراجعة
+  messages:
+  - |
+    https://drive.google.com/drive/u/0/folders/1iXd8xkoK898Khk5iMEOYGAXzEEcnaoGq
+- name: 🤞 الامتحانات
+  messages:
+  - |
+    https://drive.google.com/drive/u/0/folders/1-4OcU5iUmaUc71oUcC-Z-tSa_dL6RnVs

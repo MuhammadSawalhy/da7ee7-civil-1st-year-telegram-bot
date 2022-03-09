@@ -1,0 +1,51 @@
+- name: 🤙 الفيديوهات
+  menu_buttons:
+  - name: د. نادية
+    messages:
+    - |
+      https://drive.google.com/drive/u/0/folders/1bWCTF9o9G3IVe7dsUh5s45-gkMbLoVQ3
+  - name: م. أحمد عبد الباسط
+    messages:
+    - |
+      https://www.youtube.com/playlist?list=PLR2RsKKRngz5mimLCDHfEz_6nqVprB0NT
+  - name: د. محمد العزب
+    messages:
+    - |
+      https://drive.google.com/drive/folders/11ffK3SHcNX6yeCWlMGNmOgoqBnb26-gV
+  - name: د. عصام البدراوي
+    messages:
+    - |
+      https://www.youtube.com/channel/UC6MMijvnpnjKjAX3T8-mkyQ
+  - name: د. محمد حسين
+    messages:
+    - |
+      https://www.youtube.com/playlist?list=PLzNHYjV-UuD1xfn6gbpEzd78dkhHbWi37
+  - name: د. محمود الصباغ
+    messages:
+    - |
+      https://www.youtube.com/playlist?list=PLTG_H6J7QeBuIJAwR1l8Qh9wzkSgAcsoA
+- name: 🤙 المحاضرات
+  menu_buttons:
+  - name: د. عصام فاروق البدراوي
+    messages:
+    - |
+      https://drive.google.com/drive/u/0/folders/1bdK-NaRsJl34hRzPv0wYNu-MBdiNMAF5
+  - name: د. نادية 🧕
+    messages:
+    - |
+      https://drive.google.com/drive/u/0/folders/1c9sxhIzYpNbvEgJJkwnTtrtlCnrY0Usq
+- name: 🤙 المذكرات
+  menu_buttons:
+  - name: م. الصباغ
+    messages:
+    - |
+      https://drive.google.com/drive/u/0/folders/1ACKLiU9v9Vi-81v0sKJHwO8gUkMANN03
+  - name: م. محمد مجدي
+    messages:
+    - |
+      ttps://drive.google.com/drive/u/0/folders/1AFfDN06x64-n2ORtkDKFCABk2d-7escp
+
+- name: 🤙 الامتحانات
+  messages:
+  - |
+    https://drive.google.com/drive/u/0/folders/16d1pfBJLLJNfiA4qYBbXrSVdtOMXnKMz
