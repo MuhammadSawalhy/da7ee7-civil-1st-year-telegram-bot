@@ -9,7 +9,7 @@ def debounce_async(secs):
             asyncio.run(func(*args, **kwargs))
 
         # TODO: make the wrapper async as well
-        def wrapper(*args, **kwargs):
+        async def wrapper(*args, **kwargs):
             intermediate_function(*args, **kwargs)
 
         return wrapper

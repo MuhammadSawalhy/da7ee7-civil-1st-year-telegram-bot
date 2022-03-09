@@ -112,6 +112,6 @@ async def send_message(event=None):
 with telegram_client:
     @telegram_client.on(events.NewMessage(from_users=BOT_USERNAME))
     async def on_message_recieved(event):
-        send_message(event)
-    send_message()
+        await send_message(event)
+    telegram_client.loop.run_until_complete(send_message())
     telegram_client.run_until_disconnected()
