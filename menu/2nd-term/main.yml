@@ -1,15 +1,15 @@
 - name: رياضيات Math
-  menu_buttons: !include ./math.yml
+  submenu: !include ./math.yml
 - name: إنشاءات Structure
-  menu_buttons: !include ./structure.yml
+  submenu: !include ./structure.yml
 - name: رسم Drawing
   messages:
   - |
     https://drive.google.com/drive/u/0/folders/1aM_agL-gS5CbmvauDlTkYGOlJmj9SS2g
 - name: ميكانيكا Mechanics
-  menu_buttons: !include ./mechanics.yml
+  submenu: !include ./mechanics.yml
 - name: إنسانيات Humanities
-  menu_buttons:
+  submenu:
   - name: الكتاب ✋
     messages:
     - |
@@ -19,6 +19,6 @@
     - |
       https://drive.google.com/drive/u/0/folders/1cILIeOTEv7hOndWY_jeEPQy7UPVqvwaF
 - name: جيولوجيا Geology
-  menu_buttons: !include ./geology.yml
+  submenu: !include ./geology.yml
 - name: خرسانة Concrete
-  menu_buttons: !include ./concrete.yml
+  submenu: !include ./concrete.yml

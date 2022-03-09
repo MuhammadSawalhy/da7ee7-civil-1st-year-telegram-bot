@@ -3,13 +3,13 @@
       - |
         تفضل الدرايف كله يا هندسة 👇
         https://drive.google.com/folderview?id=1ko3dWCIeO6pS3crmyz5J2Rv_n5gzkDAW
-    menu_buttons: !include ./1st-term.yml
+    submenu: !include ./1st-term.yml
     command: /1
 
   - name: الترم الثاني
     messages:
       - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
-    menu_buttons: !include ./2nd-term/main.yml
+    submenu: !include ./2nd-term/main.yml
     command: /2
 
   - name: الجدول 📅
@@ -18,7 +18,7 @@
         path: ./schedule.pdf
 
 - - name: تعريف بالمواد
-    menu_buttons: !include ./courses-definitions.yml
+    submenu: !include ./courses-definitions.yml
 
   - name: تقسيمة الدرجات
 
@@ -31,4 +31,4 @@
     messages:
     - https://www.facebook.com/zagengfamily/
   - name: المزيد 🤗
-    menu_buttons: !include ./more.yml
+    submenu: !include ./more.yml

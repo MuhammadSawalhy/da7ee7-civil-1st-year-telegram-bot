@@ -55,7 +55,7 @@ def polish_menu(menu, menu_path=[]):
             button_path = menu_path.copy()
             button_path.append(button["name"])
             button["path"] = button_path
-            if submenu := button.get("menu_buttons"):
+            if submenu := button.get("submenu"):
                 polish_menu(submenu, button_path)
 
 

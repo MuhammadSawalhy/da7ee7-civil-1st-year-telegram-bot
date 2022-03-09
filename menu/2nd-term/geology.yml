@@ -1,5 +1,5 @@
 - name: 🤙 الفيديوهات
-  menu_buttons:
+  submenu:
   - name: د. نادية
     messages:
     - |
@@ -25,7 +25,7 @@
     - |
       https://www.youtube.com/playlist?list=PLTG_H6J7QeBuIJAwR1l8Qh9wzkSgAcsoA
 - name: 🤙 المحاضرات
-  menu_buttons:
+  submenu:
   - name: د. عصام فاروق البدراوي
     messages:
     - |
@@ -35,7 +35,7 @@
     - |
       https://drive.google.com/drive/u/0/folders/1c9sxhIzYpNbvEgJJkwnTtrtlCnrY0Usq
 - name: 🤙 المذكرات
-  menu_buttons:
+  submenu:
   - name: م. الصباغ
     messages:
     - |

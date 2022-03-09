@@ -1,6 +1,6 @@
 
 - name: 🤞 المحاضرات
-  menu_buttons:
+  submenu:
   - name: د. السيد أحمد
     messages:
     - |
