@@ -33,17 +33,28 @@ def command_start(message):
 
 @bot.message_handler()
 def any_message(message):
+    global current_path
+    button = None
+    submenu = None
     button_name = message.text
+
     if button_name == "◀️" and len(current_path) > 1:
         button_name = current_path.pop()
         button_name = current_path.pop()
-    if button_name == "🔼" or (button_name == "◀️" and len(current_path) == 1):
-        button = None
+    elif button_name == "🔼" or (button_name == "◀️" and len(current_path) == 1):
+        if current_path:
+            current_path.pop()
+        elif button_name == "🔼":
+            current_path = []
         submenu = main_menu
     else:
         button = all_buttons.get(button_name)
-        submenu = button.get("submenu") if button else None
-        current_path.append(button_name)
+
+    if button:
+        submenu = button.get("submenu")
+        if submenu:
+            current_path.append(button_name)
+            
     if submenu:
         markup = get_menu_markup(submenu)
     else:
