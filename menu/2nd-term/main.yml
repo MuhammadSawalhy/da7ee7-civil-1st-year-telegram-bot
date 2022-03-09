@@ -1,24 +1,34 @@
-- name: رياضيات Math
-  submenu: !include ./math.yml
-- name: إنشاءات Structure
-  submenu: !include ./structure.yml
-- name: رسم Drawing
+- - name: 🟣 رياضيات Math
+    submenu: !include ./math.yml
+    messages:
+    - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
+  - name: 🟢 إنشاءات Structure
+    submenu: !include ./structure.yml
+    messages:
+    - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
+  - name: 🔵 ميكانيكا Mechanics
+    submenu: !include ./mechanics.yml
+    messages:
+    - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
+- - name: 🟡 إنسانيات Humanities
+    messages:
+    - |
+      محاضرات الدكتور 📺
+      https://drive.google.com/drive/u/0/folders/10SgpNR7Wih5UVb__777OlvvCe8g0Uxva
+      الكتاب 📔
+      https://drive.google.com/file/d/1cGg0Lsty9Ki9FDJLnvblwE6JrpyGzm_v/view
+      وخد كمان المذكرات بالمرة ✌️
+      https://drive.google.com/drive/u/0/folders/1cILIeOTEv7hOndWY_jeEPQy7UPVqvwaF
+  - name: 🟠 جيولوجيا Geology
+    submenu: !include ./geology.yml
+    messages:
+    - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
+  - name: 🔴 خرسانة Concrete
+    submenu: !include ./concrete.yml
+    messages:
+    - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
+- name: ⚫️ رسم Drawing
   messages:
   - |
+    اتناول مني اللينك كده 🔗 👊
     https://drive.google.com/drive/u/0/folders/1aM_agL-gS5CbmvauDlTkYGOlJmj9SS2g
-- name: ميكانيكا Mechanics
-  submenu: !include ./mechanics.yml
-- name: إنسانيات Humanities
-  submenu:
-  - name: الكتاب ✋
-    messages:
-    - |
-      https://drive.google.com/drive/u/0/folders/1Gfl2dFZLzEGtyKB45FlZXCHym3M9Ywxv
-  - name: المذكرات ✋
-    messages:
-    - |
-      https://drive.google.com/drive/u/0/folders/1cILIeOTEv7hOndWY_jeEPQy7UPVqvwaF
-- name: جيولوجيا Geology
-  submenu: !include ./geology.yml
-- name: خرسانة Concrete
-  submenu: !include ./concrete.yml

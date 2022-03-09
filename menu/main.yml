@@ -1,34 +1,72 @@
-- - name: الترم الأول
-    messages:
-      - |
-        تفضل الدرايف كله يا هندسة 👇
-        https://drive.google.com/folderview?id=1ko3dWCIeO6pS3crmyz5J2Rv_n5gzkDAW
-    submenu: !include ./1st-term.yml
-    command: /1
+- - name: المواد 📚
+    submenu:
+    - - name: الترم الأول 1️⃣
+        messages:
+          - |
+            تفضل الدرايف كله يا هندسة 👇
+            https://drive.google.com/folderview?id=1ko3dWCIeO6pS3crmyz5J2Rv_n5gzkDAW
+        submenu: !include ./1st-term.yml
+        command: /1
 
-  - name: الترم الثاني
-    messages:
-      - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
-    submenu: !include ./2nd-term/main.yml
-    command: /2
+      # dirve: https://drive.google.com/drive/u/0/folders/1rAS9X_RlOdCw8fBvBpXgw0WgkOKpDLOH
+      - name: الترم الثاني 2️⃣
+        messages:
+          - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
+        submenu: !include ./2nd-term/main.yml
+        command: /2
 
-  - name: الجدول 📅
-    messages:
-      - type: file
-        path: ./schedule.pdf
+    - - name: الجدول 📅
+        messages:
+          - type: file
+            path: ./schedule.pdf
+      - name: رابط المنصة 🌐
+        messages:
+          - |
+            حط رقمك القومي في اسم المستخدم وفي كلمة السر 🔐
+            وممكن برضو تحط الكود الجامعي في خانة اسم المستخدم 👇
 
-- - name: تعريف بالمواد
+            http://mis.zu.edu.eg/iep/
+
+
+- - name: تعريف بالمواد ❗️
     submenu: !include ./courses-definitions.yml
 
-  - name: تقسيمة الدرجات
+  - name: 📄 تقسيمة الدرجات
 
-- - name: رابط المنصة
-  - name: قائمة البوتات
-  - name: جروب الدفعة
-
-- - name: تواصل معنا 🙋🏻‍♂️
+- - name: قائمة البوتات 🤖
+    messages:
+    - |
+      Da7ee7 Civil 1st Year, [3/9/22 8:01 PM]
+      الفرقة الإعدادية
+      https://t.me/Da7ee7_Prep_Bot
+    - |
+      Da7ee7 Civil 1st Year, [3/9/22 8:01 PM]
+      قسم الهندسة الكهربية - الفرقة الأولى
+      https://t.me/Da7ee7_Electric_2024_Bot
+      قسم الهندسة الكهربية - الفرقة الثانية
+      https://t.me/Da7ee7_Electric_2nd_Year_Bot
+    - |
+      Da7ee7 Civil 1st Year, [3/9/22 8:01 PM]
+      قسم الهندسة المدنية - الفرقة الأولى
+      https://t.me/Da7ee7_Civil_1st_Year_Bot
+    - |
+      Da7ee7 Civil 1st Year, [3/9/22 8:01 PM]
+      قسم الهندسة الميكانيكية - الفرقة الثانية
+      https://t.me/DA7ee7_2nd_mech_bot
+  - name: جروب الدفعة 🤙
   - name: ❤️ صفحة الأسرة (زاج إنج)
     messages:
     - https://www.facebook.com/zagengfamily/
-  - name: المزيد 🤗
+
+- - name: تواصل معنا 🙋🏻‍♂️
+    messages:
+    - المشرف على البوت @muhammad2052001
+    - |
+      وم/أحمد ماجد 👷‍♂️ head للجنة ال IT
+      https://www.facebook.com/profile.php?id=100013261985832
+    - |
+      وعندك برضو صفحة زاج إنج على الفيسبوك، لو حابب تتواصل مع زاج إنج نفسها
+      https://www.facebook.com/zagengfamily/
+
+  - name: 🤗 المزيد
     submenu: !include ./more.yml

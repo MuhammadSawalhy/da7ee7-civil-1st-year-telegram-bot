@@ -1,6 +1,9 @@
+telethon.session
+telethon.session-journal
+menu/main.json
+
 env/
 __pycache__/
 
 .env
-telethon.session
-menu/main.json
+*.log

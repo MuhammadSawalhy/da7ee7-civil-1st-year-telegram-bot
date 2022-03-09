@@ -41,6 +41,7 @@ def any_message(message):
     if button_name == "◀️" and len(current_path) > 1:
         button_name = current_path.pop()
         button_name = current_path.pop()
+        button = all_buttons.get(button_name)
     elif button_name == "🔼" or (button_name == "◀️" and len(current_path) == 1):
         if current_path:
             current_path.pop()

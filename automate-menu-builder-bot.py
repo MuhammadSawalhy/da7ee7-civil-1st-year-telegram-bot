@@ -9,6 +9,17 @@ from collections import deque
 from utils import debounce_async
 from menu import main_menu
 
+logFormatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s")
+rootLogger = logging.getLogger()
+
+fileHandler = logging.FileHandler("{0}/{1}.log".format(logPath, fileName))
+fileHandler.setFormatter(logFormatter)
+rootLogger.addHandler(fileHandler)
+
+consoleHandler = logging.StreamHandler()
+consoleHandler.setFormatter(logFormatter)
+rootLogger.addHandler(consoleHandler)
+
 logging.basicConfig(format='[%(levelname)-7s %(asctime)s] %(name)s: %(message)s',
                     level=logging.INFO)
 
@@ -21,7 +32,7 @@ telegram_client = TelegramClient('telethon', env.get(
 # and async code if an error occured, we should stop the next process step
 error_occured = False
 process: deque[str | dict[str, str]] = deque([
-    "/start",
+    # "/start",
     "/langen",
 ])
 
@@ -137,7 +148,8 @@ async def send_message(event: events.NewMessage.Event | None = None):
         if message["type"] == "file":
             file_path: str = message["path"]
             logging.info("sending file: " + file_path)
-            await telegram_client.send_file(BOT_USERNAME, file_path) # type: ignore
+            # await telegram_client.send_file(BOT_USERNAME, file_path) # type: ignore
+            logging.warning("ignore sending the file")
         elif message["type"] == "click-button":
             button_name = message["name"]
             await click_inline_button(button_name, event)
@@ -147,8 +159,8 @@ with telegram_client:
     @telegram_client.on(events.NewMessage(from_users=BOT_USERNAME))
     async def on_message_recieved(event):
         recieved_message = event.message.message.split("\n")[0] # first line only
-        logging.info("recieved message: " + recieved_message)
-        if error_occured or len(process) == 0 or recieved_message == "❌ Unknown Command!":
+        logging.info("recieved: " + recieved_message)
+        if error_occured or len(process) == 0 or recieved_message[0] == "❌":
             disconn_coro = telegram_client.disconnect()
             if disconn_coro:
                 await disconn_coro
