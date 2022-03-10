@@ -1,3 +1,5 @@
+import os
+import sys
 import telebot
 from telebot import types
 from dotenv import dotenv_values
@@ -12,11 +14,17 @@ MAIN_MENU = "🔼"
 current_path = []
 all_buttons = {}
 main_menu = []
+is_prod = os.environ.get("BOT_ENV") == "production"
 
 
 def update():
     global all_buttons, main_menu
-    main_menu = get_main_menu()
+
+    try:
+        main_menu = get_main_menu()
+    except Exception as e:
+        print(e, file=sys.stderr)
+
     main_menu_copy = main_menu.copy()
     all_buttons = {}
 
@@ -32,17 +40,20 @@ def get_menu_markup(menu):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     for row in menu:
         markup.row(*[types.KeyboardButton(button["name"]) for button in row])
-    markup.row(
-        types.KeyboardButton(REFRESH),
-        types.KeyboardButton(GO_BACK),
-        types.KeyboardButton(MAIN_MENU),
-    )
+    navigation_row = [
+        GO_BACK,
+        MAIN_MENU,
+    ]
+    if not is_prod:
+        navigation_row.insert(0, REFRESH)
+    markup.row(*[types.KeyboardButton(button) for button in navigation_row])
     return markup
 
 
 @bot.message_handler(commands=['start'])
 def command_start(message):
-    update()
+    if not is_prod:
+        update()
     markup = get_menu_markup(main_menu)
     bot.send_message(message.chat.id, message.text, reply_markup=markup)
 
@@ -54,7 +65,8 @@ def any_message(message):
     submenu = None
     button_name = message.text
 
-    update()
+    if not is_prod:
+        update()
 
     if button_name == REFRESH and len(current_path):
         button_name = current_path.pop()
@@ -96,5 +108,5 @@ def any_message(message):
 
 
 update()
-bot.set_webhook()
-bot.polling()
+bot.remove_webhook()
+bot.polling(True)

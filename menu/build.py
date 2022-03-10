@@ -51,8 +51,7 @@ def polish_menu(menu, menu_path=[]):
             button_or_row = [button_or_row]
         for button in button_or_row:
             if button["name"] in all_buttons:
-                print("duplicated button:", button["name"], file=sys.stderr)
-                exit(1)
+                raise Exception("duplicated button: " + button["name"])
             all_buttons.append(button["name"])
             button_path = menu_path.copy()
             button_path.append(button["name"])
