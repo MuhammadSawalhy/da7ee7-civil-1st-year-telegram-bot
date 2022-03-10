@@ -1,9 +1,13 @@
 import os
 import sys
+import logging
 import telebot
 from telebot import types
 from dotenv import dotenv_values
 from menu import get_main_menu
+
+logging.basicConfig(format='[%(levelname)-7s %(asctime)s] %(name)s: %(message)s',
+                    level=logging.INFO)
 
 env = dotenv_values(".env")
 bot = telebot.TeleBot(env.get("BOT_TOKEN"))
@@ -23,7 +27,7 @@ def update():
     try:
         main_menu = get_main_menu()
     except Exception as e:
-        print(e, file=sys.stderr)
+        logging.error(e)
 
     main_menu_copy = main_menu.copy()
     all_buttons = {}
@@ -52,6 +56,7 @@ def get_menu_markup(menu):
 
 @bot.message_handler(commands=['start'])
 def command_start(message):
+    logging.info("recieved: /start")
     if not is_prod:
         update()
     markup = get_menu_markup(main_menu)
@@ -61,9 +66,12 @@ def command_start(message):
 @bot.message_handler()
 def any_message(message):
     global current_path
+
     button = None
     submenu = None
     button_name = message.text
+
+    logging.info("recieved: " + message.text)
 
     if not is_prod:
         update()
@@ -94,17 +102,25 @@ def any_message(message):
     else:
         markup = None
 
+    message_to_send = button_name if button_name else message.text
+    logging.info("sending: " + message_to_send)
     bot.send_message(
         message.chat.id,
-        button_name if button_name else message.text,
+        message_to_send,
         reply_markup=markup
     )
+
     messages = button.get("messages") if button else None
-    if messages:
-        for msg in messages:
-            if type(msg) is str:
-                bot.send_message(message.chat.id, msg,
-                                 disable_web_page_preview=True)
+    
+    if not messages:
+        return
+
+    for msg in messages:
+        if type(msg) is not str:
+            continue
+        logging.info("sending: " + msg.split("\n")[0])
+        bot.send_message(message.chat.id, msg,
+                            disable_web_page_preview=True)
 
 
 update()
