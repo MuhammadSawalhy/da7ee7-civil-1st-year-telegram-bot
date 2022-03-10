@@ -1,24 +1,12 @@
 #!python
 
-import json
 import logging
 
 from telethon.sync import TelegramClient, events
 from dotenv import dotenv_values
 from collections import deque
 from utils import debounce_async
-from menu import main_menu
-
-logFormatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s")
-rootLogger = logging.getLogger()
-
-fileHandler = logging.FileHandler("{0}/{1}.log".format(logPath, fileName))
-fileHandler.setFormatter(logFormatter)
-rootLogger.addHandler(fileHandler)
-
-consoleHandler = logging.StreamHandler()
-consoleHandler.setFormatter(logFormatter)
-rootLogger.addHandler(consoleHandler)
+from menu import get_main_menu
 
 logging.basicConfig(format='[%(levelname)-7s %(asctime)s] %(name)s: %(message)s',
                     level=logging.INFO)
@@ -28,11 +16,12 @@ env = dotenv_values(".env")
 telegram_client = TelegramClient('telethon', env.get(
     "TELEGRAM_API_ID"), env.get("TELEGRAM_API_HASH"))  # type: ignore
 
-# we need this global `error_occured` because we are running different threads
-# and async code if an error occured, we should stop the next process step
+# we need this global `error_occured` because we are running
+# different threads and async  code if an error occured,  we
+# should stop the next process step
 error_occured = False
 process: deque[str | dict[str, str]] = deque([
-    # "/start",
+    "/start",
     "/langen",
 ])
 
@@ -40,18 +29,17 @@ process: deque[str | dict[str, str]] = deque([
 def build_button(button, first_in_row=False):
     process.append("➕ Add Button")
     process.append(button["name"])
-    command = button.get("command")
-    if command:
+    if not first_in_row:
+        process.append({"type": "click-button", "name": "⬆️"})
+    if command := button.get("command"):
         process.append({"type": "click-button", "name": "*⃣"})
         process.append("Assign Command")
         process.append(command)
         process.append("✅ Confirm")
         process.append("🔚 Exit Button Settings")
-        if not first_in_row:
-            # because we want to click ⬆️
-            process.append(button["name"])
-    if not first_in_row:
-        process.append({"type": "click-button", "name": "⬆️"})
+        # to select it again so that the new
+        # button will be underneath it
+        process.append(button["name"])
 
 
 def build_row(row):
@@ -83,6 +71,7 @@ def build_menu_messages(menu):
                 build_menu_messages(sub_menu)
 
 
+main_menu = get_main_menu()
 process.append("🎛 Buttons Editor")
 build_menu_buttons(main_menu)
 

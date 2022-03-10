@@ -1,1 +1,1 @@
-from .build import main_menu
+from .build import get_main_menu
