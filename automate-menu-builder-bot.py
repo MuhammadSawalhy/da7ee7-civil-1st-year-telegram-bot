@@ -1,5 +1,7 @@
 #!python
 
+import os
+import json
 import logging
 
 from telethon.sync import TelegramClient, events
@@ -20,6 +22,7 @@ telegram_client = TelegramClient('telethon', env.get(
 # different threads and async  code if an error occured,  we
 # should stop the next process step
 error_occured = False
+process_file = "automate-menu-builder-bot.process.log"
 process: deque[str | dict[str, str]] = deque([
     "/start",
     "/langen",
@@ -71,19 +74,27 @@ def build_menu_messages(menu):
                 build_menu_messages(sub_menu)
 
 
-main_menu = get_main_menu()
-process.append("🎛 Buttons Editor")
-build_menu_buttons(main_menu)
+if os.path.exists(process_file):
+    with open(process_file, "r") as f:
+        process = deque(json.loads(f.read()))
+else:
+    main_menu = get_main_menu()
+    process.append("🎛 Buttons Editor")
+    build_menu_buttons(main_menu)
 
-process.append("🛑 Stop Editor")
-process.append("📝 Posts Editor")
-build_menu_messages(main_menu)
-process.append("🛑 Stop Editor")
+    process.append("🛑 Stop Editor")
+    process.append("📝 Posts Editor")
+    build_menu_messages(main_menu)
+    process.append("🛑 Stop Editor")
 
-process.append("/langar")
-# TODO: test with snapshots instead
-# print(*process, sep="\n")
-# exit()
+    process.append("/langar")
+
+
+def update_process_file():
+    """ this is a queque but stored in a file to continue
+    if the process stoped because of some error """
+    with open(process_file, "w") as f:
+        f.write(json.dumps(list(process), indent=2, ensure_ascii=False))
 
 
 def get_message():
@@ -91,8 +102,11 @@ def get_message():
     we ran out of the step and all are done """
 
     try:
+        update_process_file()
         message = process.popleft()
         if len(process) == 0:
+            if os.path.exists(process_file):
+                os.remove(process_file)
             logging.info("Alhamdulilah, all are done 💚")
         return message
     except:
