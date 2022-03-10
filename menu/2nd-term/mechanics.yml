@@ -1,22 +1,38 @@
-- name: الكتاب 🤞
+-
+  - name: الكتاب 📘 
+    messages:
+    - |
+      اتفضل يا هندسة ❤️👇
+      https://drive.google.com/drive/u/0/folders/1DlEa9Q_1KOJsm7otXeM3Od25M64EKpFY
+  - name: مذكرات د. أحمد زكي 📕
+    messages:
+    - |
+      اتفضل يا هندسة ❤️👇
+      https://drive.google.com/drive/u/0/folders/1GRp-py-kkheNTn-UgECgRtEdCXIb0JxI
+-
+  - name: مراجعة ♻️
+    messages:
+    - |
+      اتفضل يا هندسة ❤️👇
+      https://drive.google.com/drive/u/0/folders/1KMs3FdF44ypEFKIMMG09g0yPd7EG8osd
+  - name: مذكرات م. شريف يوسف 📕
+    messages:
+    - |
+      اتفضل يا هندسة ❤️👇
+      https://drive.google.com/drive/u/0/folders/138sNtbzgatr3ixLvXg-riVMcpgh9EpJ9
+-
+  - name: امتحانات ✍️
+    messages:
+    - |
+      اتفضل يا هندسة ❤️👇
+      https://drive.google.com/drive/u/0/folders/1I5WUKB9JFw-m51bekSi5WRry6zEI80GL
+  - name: سمارت 💿
+    messages:
+    - |
+      ده فيديو لـ د/أحمد زكي بيوضحلك فيه امتحان الاسمارت 💻💿
+      https://www.youtube.com/watch?v=QL5MjniBa2U
+- name: الشيتات ✏️
   messages:
   - |
-    https://drive.google.com/drive/u/0/folders/1DlEa9Q_1KOJsm7otXeM3Od25M64EKpFY
-- name: محاضرات 🤞
-  messages:
-  - |
-    د. أحمد زكي
-    https://drive.google.com/drive/u/0/folders/1GRp-py-kkheNTn-UgECgRtEdCXIb0JxI
-- name: مراجعة 🤞
-  messages:
-  - |
-    https://drive.google.com/drive/u/0/folders/1KMs3FdF44ypEFKIMMG09g0yPd7EG8osd
-- name: المذكرات 🤞
-  messages:
-  - |
-    م. شريف يوسف
-    https://drive.google.com/drive/u/0/folders/138sNtbzgatr3ixLvXg-riVMcpgh9EpJ9
-- name: امتحانات 🤞
-  messages:
-  - |
-    https://drive.google.com/drive/u/0/folders/1I5WUKB9JFw-m51bekSi5WRry6zEI80GL
+    اتفضل يا هندسة الشيتات، يا رب بس تذاكر وتلم الشَتَات 😅👇
+    https://drive.google.com/drive/u/0/folders/1E363DO0dv2xQct4Z3_WZRoA5Nm7-_FNq

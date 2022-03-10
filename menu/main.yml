@@ -28,7 +28,6 @@
 
             http://mis.zu.edu.eg/iep/
 
-
 - - name: تعريف بالمواد ❗️
     submenu: !include ./courses-definitions.yml
 
