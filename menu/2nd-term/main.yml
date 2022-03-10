@@ -7,8 +7,13 @@
     submenu: !include ./structure.yml
     messages:
     - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
+-
   - name: 🔵 ميكانيكا Mechanics
     submenu: !include ./mechanics.yml
+    messages:
+    - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
+  - name: 🔴 خرسانة Concrete
+    submenu: !include ./concrete.yml
     messages:
     - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
 -
@@ -23,10 +28,6 @@
       https://drive.google.com/drive/u/0/folders/1cILIeOTEv7hOndWY_jeEPQy7UPVqvwaF
   - name: 🟠 جيولوجيا Geology
     submenu: !include ./geology.yml
-    messages:
-    - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
-  - name: 🔴 خرسانة Concrete
-    submenu: !include ./concrete.yml
     messages:
     - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
 - name: ⚫️ رسم Drawing
