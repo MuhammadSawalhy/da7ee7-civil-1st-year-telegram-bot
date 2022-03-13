@@ -123,21 +123,20 @@ async def click_inline_button(button_name: str, event: events.NewMessage.Event |
     buttons = await event.get_buttons()
 
     if not buttons:
-        logging.error("can't find buttons to click: " +
-                      button_name)
-        error_occured = True
-        return
+        for buttons_row in buttons:
+            for button in buttons_row:
+                if button_name == button.button.text:
+                    logging.info("clicking: " + button.button.text)
+                    await button.click()
+                    return
 
-    for buttons_row in buttons:
-        for button in buttons_row:
-            if button_name == button.button.text:
-                logging.info("clicking: " + button.button.text)
-                await button.click()
-                return
-
-    all_buttons = ", ".join([", ".join([button.button.text for button in buttons_row]) for buttons_row in buttons])
-    logging.error("can't find the button to click, " + button_name)
-    logging.error("here are the buttons: " + all_buttons) # all the buttons chained
+    all_buttons = ", ".join(
+        [", ".join([button.button.text for button in buttons_row])
+        for buttons_row in buttons] if buttons else [])
+    logging.warning("can't find the button to click, " + button_name)
+    logging.warning("here are the buttons: " + all_buttons) # all the buttons chained
+    logging.warning("waiting for the next message")
+    process.appendleft({ 'type': 'click-button', 'name': button_name })
     error_occured = True
 
 
