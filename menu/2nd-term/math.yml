@@ -52,18 +52,26 @@
       http://bit.ly/3vMWKvP
     - ↗️🔼⬆️⏫⤴️↖️👆
   - name: محاضرات 📗
-    messages:
-    - |
-      د. رباب
-      https://drive.google.com/drive/folders/156t-IS7bOZD3nplZtX1fg-FrTBKPz9xe
+    submenu:
+    - name: د. رباب
+      messages:
+      - |
+        امسك المحاضرات دي مني ⬇❤
+        https://drive.google.com/drive/folders/156t-IS7bOZD3nplZtX1fg-FrTBKPz9xe
+    - name: د. نورهان
+      messages:
+      - |
+        امسك المحاضرات دي مني ⬇❤
+        https://drive.google.com/drive/folders/1gZgflNgQtPcJEQ0wZPdjK7QGUhhuBmyS
 
-      د. نورهان
-      https://drive.google.com/drive/folders/1gZgflNgQtPcJEQ0wZPdjK7QGUhhuBmyS
-
-      د. نظيرة
-      https://drive.google.com/drive/folders/1oeGHfNEoU_xVk5o2ou7K1U3hhXeqE9iY
-      وهنا برضو
-      https://drive.google.com/drive/folders/1coTR7DtkWQwhNl2EFwKPjKhNtSMgWaIW
+    - name: د. نظيرة
+      messages:
+      - |
+        خد دي
+        https://drive.google.com/drive/folders/1oeGHfNEoU_xVk5o2ou7K1U3hhXeqE9iY
+        
+        وخد دي برضو
+        https://drive.google.com/drive/folders/1coTR7DtkWQwhNl2EFwKPjKhNtSMgWaIW
 -
   - name: مذكرات 📓
     messages:
