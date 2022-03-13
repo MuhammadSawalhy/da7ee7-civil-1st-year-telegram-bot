@@ -1,39 +1,15 @@
 # 📽🎥📹📺🖥💻⏯🎦💠❇️✅✳️🔸🔹♦️🔺🔻📢📣
-- - name: المواد 📚
-    submenu:
-    - - name: الترم الأول 1️⃣
-        messages:
-          - |
-            تفضل الدرايف كله يا هندسة 👇
-            https://drive.google.com/folderview?id=1ko3dWCIeO6pS3crmyz5J2Rv_n5gzkDAW
-        submenu: !include ./1st-term.yml
-        command: /1
+-
+  - name: المواد 📚
+    submenu: !include data.yml
 
-      # dirve: https://drive.google.com/drive/folders/1rAS9X_RlOdCw8fBvBpXgw0WgkOKpDLOH
-      - name: الترم الثاني 2️⃣
-        messages:
-          - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
-        submenu: !include ./2nd-term/main.yml
-        command: /2
-
-    - - name: الجدول 📅
-        messages:
-          - type: file
-            path: ./schedule.pdf
-      - name: رابط المنصة 🌐
-        messages:
-          - |
-            حط رقمك القومي في اسم المستخدم وفي كلمة السر 🔐
-            وممكن برضو تحط الكود الجامعي في خانة اسم المستخدم 👇
-
-            http://mis.zu.edu.eg/iep/
-
-- - name: تعريف بالمواد ❗️
+-
+  - name: تعريف بالمواد ❗️
     submenu: !include ./courses-definitions.yml
-
   - name: 📄 تقسيمة الدرجات
 
-- - name: قائمة البوتات 🤖
+-
+  - name: قائمة البوتات 🤖
     messages:
     - |
       الفرقة الإعدادية 🤖🍼
@@ -62,7 +38,8 @@
       Twitter ⬇️
       https://twitter.com/engzagfamily
 
-- - name: تواصل معنا 🙋🏻‍♂️
+-
+  - name: تواصل معنا 🙋🏻‍♂️
     messages:
     - المشرف على البوت @muhammad2052001
     - |
@@ -71,6 +48,5 @@
     - |
       وعندك برضو صفحة زاج إنج على الفيسبوك، لو حابب تتواصل مع زاج إنج نفسها
       https://www.facebook.com/zagengfamily/
-
   - name: 🤗 المزيد
     submenu: !include ./more.yml
