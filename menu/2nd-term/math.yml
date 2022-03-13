@@ -83,6 +83,7 @@
     - |
       https://drive.google.com/drive/folders/176aFQj50tzsm6Q9aB0cGJIjiQgJ8VpvE
   - name: امتحانات ❓
+    # TODO: split this into msg for each exam or one msg for all
     messages:
     - اتفضل يا هندسة ⬇❤
     - |

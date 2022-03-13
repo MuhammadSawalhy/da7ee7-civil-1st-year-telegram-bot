@@ -1,23 +1,68 @@
 
-- name: 🤞 المحاضرات
-  submenu:
-  - name: د. السيد أحمد
+-
+  - name: 🤞 المحاضرات
+    submenu:
+    - name: د. السيد أحمد
+      messages:
+      - اتفضل يا هندسة ⬇❤
+      - |
+        https://drive.google.com/drive/folders/1h1Rn5yux4wXUxeq94-giRKFRJFe_fayx
+    - name: د. لؤي عبد الرازق
+      messages:
+      - اتفضل يا هندسة ⬇❤
+      - |
+        https://drive.google.com/drive/folders/1gS2LyDarbhI48Xlj-hPbqPyUrAV4ds5g
+  - name: فيديوهات 📽
     messages:
     - |
-      https://drive.google.com/drive/folders/1h1Rn5yux4wXUxeq94-giRKFRJFe_fayx
-  - name: د. لؤي
-    messages:
+      فيديوهات د. لؤي عبد الرازق 🥳
+      https://drive.google.com/drive/folders/1X76X53LUssnh7FwlnEHFSmaUAkxMQ9TG
     - |
-      https://drive.google.com/drive/folders/1gS2LyDarbhI48Xlj-hPbqPyUrAV4ds5g
-- name: 🤞 المذكرات
-  messages:
-  - |
-    https://drive.google.com/drive/folders/1-ChDUnOq8Ay8Q93t2J42dUmN3yrDkpO3
-- name: 🤞 المراجعة
-  messages:
-  - |
-    https://drive.google.com/drive/folders/1iXd8xkoK898Khk5iMEOYGAXzEEcnaoGq
-- name: 🤞 الامتحانات
-  messages:
-  - |
-    https://drive.google.com/drive/folders/1-4OcU5iUmaUc71oUcC-Z-tSa_dL6RnVs
+      سكاشن م. مصطفى حسن 🎉
+      https://www.youtube.com/channel/UCvwOCbaZ2g4fYVexO-4scDw
+
+-
+  - name: سكاشن 👨🏻‍🏫
+    messages:
+    - اتفضل يا هندسة ⬇❤
+    - |
+      https://drive.google.com/drive/folders/1gHYlWx97v4iYoGVM_hRM_DRFbzMRh5lG
+  - name: شيتات 📑
+    messages:
+    - اتفضل يا هندسة ⬇❤
+    - |
+      https://drive.google.com/drive/folders/1iHHPcaDus3q5_nBfE1Gu4grA8J-qL7k2
+
+-
+  - name: المذكرات 📚
+    messages:
+    - اتفضل يا هندسة ⬇❤
+    - |
+      https://drive.google.com/drive/folders/1-ChDUnOq8Ay8Q93t2J42dUmN3yrDkpO3
+  - name: المراجعة 🔎
+    messages:
+    - اتفضل يا هندسة ⬇❤
+    - |
+      https://drive.google.com/drive/folders/1iXd8xkoK898Khk5iMEOYGAXzEEcnaoGq
+
+-
+  - name: الامتحانات ✍️
+    # TODO: split this into msg for each exam or one msg for all
+    submenu:
+    - name: الميد 🚶‍♂️
+      messages:
+      - |
+        اتفضل يا هندسة ❤️👇
+        https://drive.google.com/drive/folders/1hplwQxfTtEV-arzxY2qEK9wY4QBz9fpg
+    - name: الفاينال 🏃‍♂️
+      messages:
+      - |
+        2️⃣0️⃣1️⃣8️⃣ 👇
+        https://drive.google.com/file/d/1hoCTK-bSjC6si79cUnUvAti5p3472Dst/view
+
+        خد معاك كمان واحد فاينال مجهول التاريخ بس مش مشكلة هيسلك معانا 👇
+        https://drive.google.com/file/d/1hkpv2NM5zws4X_A8AHk48aHW9_9qlU2P/view
+
+        ده بقا تلاتة في واحد: فاينال وميد وشفوي 👇
+        2️⃣0️⃣2️⃣1️⃣
+        https://drive.google.com/file/d/1ho8EaTEG4DQj58gPgvZSqdvvSp9Uiu9J/view

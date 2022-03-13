@@ -42,7 +42,7 @@
         messages:
         - |
           اتناول يا هندسة مني ❤️👇
-          https://drive.google.com/drive/u/0/folders/10zNVcZzJ3-vj9NnA7ye3jK2nUKCtuH4v
+          https://drive.google.com/drive/folders/10zNVcZzJ3-vj9NnA7ye3jK2nUKCtuH4v
   - name: 🟠 جيولوجيا Geology
     submenu: !include ./geology.yml
     messages:

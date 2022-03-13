@@ -123,7 +123,8 @@ def any_message(message):
                             disable_web_page_preview=True)
 
 
-print("🚀", "https://t.me/ZagEngTaskSimpleTelegramBot")
+print("🚀"*10)
+os.system("xdg-open 'tg://resolve?domain=ZagEngTaskSimpleTelegramBot' &> /dev/null")
 
 update()
 bot.remove_webhook()
