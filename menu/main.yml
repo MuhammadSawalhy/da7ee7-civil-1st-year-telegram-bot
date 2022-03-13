@@ -9,7 +9,7 @@
         submenu: !include ./1st-term.yml
         command: /1
 
-      # dirve: https://drive.google.com/drive/u/0/folders/1rAS9X_RlOdCw8fBvBpXgw0WgkOKpDLOH
+      # dirve: https://drive.google.com/drive/folders/1rAS9X_RlOdCw8fBvBpXgw0WgkOKpDLOH
       - name: الترم الثاني 2️⃣
         messages:
           - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
