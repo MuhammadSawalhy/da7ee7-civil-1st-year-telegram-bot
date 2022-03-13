@@ -123,6 +123,8 @@ def any_message(message):
                             disable_web_page_preview=True)
 
 
+print("🚀", "https://t.me/ZagEngTaskSimpleTelegramBot")
+
 update()
 bot.remove_webhook()
 bot.polling(True)
