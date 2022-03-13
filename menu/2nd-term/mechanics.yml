@@ -1,28 +1,54 @@
+- name: فيديوهات 📹
+  messages:
+  - |
+    د. أحمد زكي ❤️👇
+    https://www.youtube.com/playlist?list=PLR2RsKKRngz5B2CEWZBRDIY_Gxp4YYxiJ
+  - |
+    سكاشن ❤️👇
+    https://www.youtube.com/playlist?list=PLrXROK4HkIp2NUH2XXLe5gWYDL9OeFcPc
 -
   - name: الكتاب 📘 
     messages:
     - |
       اتفضل يا هندسة ❤️👇
-      https://drive.google.com/drive/u/0/folders/1DlEa9Q_1KOJsm7otXeM3Od25M64EKpFY
-  - name: مذكرات د. أحمد زكي 📕
-    messages:
-    - |
-      اتفضل يا هندسة ❤️👇
-      https://drive.google.com/drive/u/0/folders/1GRp-py-kkheNTn-UgECgRtEdCXIb0JxI
+      https://drive.google.com/file/d/1Doqt_IriZdwoqbYQlZnZVHwHDSq-9-pO/view
+  - name: مذكرات 📕
+    submenu:
+    - name: د. أحمد زكي 📘
+      messages:
+      - |
+        اتفضل يا هندسة ❤️👇
+        https://drive.google.com/drive/u/0/folders/1GRp-py-kkheNTn-UgECgRtEdCXIb0JxI
+    - name: م. شريف يوسف 📕
+      messages:
+      - |
+        اتفضل يا هندسة ❤️👇
+        https://drive.google.com/drive/u/0/folders/138sNtbzgatr3ixLvXg-riVMcpgh9EpJ9
+    - name: م. محمد خيري 📓
+      messages:
+      - |
+        اتفضل يا هندسة ❤️👇
+        https://drive.google.com/drive/u/0/folders/14TzWy1i6y79jmvkNF9HMJfKgkGUZ41o6
+    - name: م. نورهان 📔
+      messages:
+      - |
+        اتفضل يا هندسة ❤️👇
+        https://drive.google.com/drive/u/0/folders/13bLPDBRW_30prhcnzUNLp8kU05oT8Dtu
 -
   - name: مراجعة ♻️
     messages:
     - |
       اتفضل يا هندسة ❤️👇
       https://drive.google.com/drive/u/0/folders/1KMs3FdF44ypEFKIMMG09g0yPd7EG8osd
-  - name: مذكرات م. شريف يوسف 📕
+  - name: الشيتات ✏️
     messages:
     - |
-      اتفضل يا هندسة ❤️👇
-      https://drive.google.com/drive/u/0/folders/138sNtbzgatr3ixLvXg-riVMcpgh9EpJ9
+      اتفضل يا هندسة الشيتات، يا رب بس تذاكر وتلم الشَتَات 😅👇
+      https://drive.google.com/drive/u/0/folders/1E363DO0dv2xQct4Z3_WZRoA5Nm7-_FNq
 -
   - name: امتحانات ✍️
     messages:
+    # TODO: split this into msg for each exam or one msg for all
     - |
       اتفضل يا هندسة ❤️👇
       https://drive.google.com/drive/u/0/folders/1I5WUKB9JFw-m51bekSi5WRry6zEI80GL
@@ -31,8 +57,3 @@
     - |
       ده فيديو لـ د/أحمد زكي بيوضحلك فيه امتحان الاسمارت 💻💿
       https://www.youtube.com/watch?v=QL5MjniBa2U
-- name: الشيتات ✏️
-  messages:
-  - |
-    اتفضل يا هندسة الشيتات، يا رب بس تذاكر وتلم الشَتَات 😅👇
-    https://drive.google.com/drive/u/0/folders/1E363DO0dv2xQct4Z3_WZRoA5Nm7-_FNq
