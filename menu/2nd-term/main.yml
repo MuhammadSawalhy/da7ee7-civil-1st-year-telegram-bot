@@ -18,14 +18,31 @@
     - اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇
 -
   - name: 🟡 إنسانيات Humanities
-    messages:
-    - |
-      محاضرات الدكتور 📺
-      https://drive.google.com/drive/u/0/folders/10SgpNR7Wih5UVb__777OlvvCe8g0Uxva
-      الكتاب 📔
-      https://drive.google.com/file/d/1cGg0Lsty9Ki9FDJLnvblwE6JrpyGzm_v/view
-      وخد كمان المذكرات بالمرة ✌️
-      https://drive.google.com/drive/u/0/folders/1cILIeOTEv7hOndWY_jeEPQy7UPVqvwaF
+    submenu:
+    -
+      - name: الكتاب 📔
+        messages:
+        - |
+          الكتاب 📔
+          https://drive.google.com/file/d/1cGg0Lsty9Ki9FDJLnvblwE6JrpyGzm_v/view
+      - name: محاضرات الدكتور 📺
+        messages:
+        - |
+          محاضرات الدكتور 📺
+          https://drive.google.com/drive/folders/15CDWtQFkhsYJnvvU1UZQtYfMNmcezwZk
+    -
+      - name: مذكرات المراجعة ✌️
+        messages:
+        - |
+          مذكرات المراجعة ✌️
+          https://drive.google.com/drive/folders/1cILIeOTEv7hOndWY_jeEPQy7UPVqvwaF
+          ➕
+          https://drive.google.com/drive/folders/15D8vk99J5kglxJmobXGXKhruckGyd5EO
+      - name: الشيتات 📗
+        messages:
+        - |
+          اتناول يا هندسة مني ❤️👇
+          https://drive.google.com/drive/u/0/folders/10zNVcZzJ3-vj9NnA7ye3jK2nUKCtuH4v
   - name: 🟠 جيولوجيا Geology
     submenu: !include ./geology.yml
     messages:
