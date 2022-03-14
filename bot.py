@@ -1,13 +1,11 @@
 import os
-import sys
-import logging
 import telebot
-from telebot import types
-from dotenv import dotenv_values
 from menu import get_main_menu
+from dotenv import dotenv_values
+from telebot import types
+from utils.logging import logging, logging_setup_concole
 
-logging.basicConfig(format='[%(levelname)-7s %(asctime)s] %(name)s: %(message)s',
-                    level=logging.INFO)
+logging_setup_concole()
 
 env = dotenv_values(".env")
 bot = telebot.TeleBot(env.get("BOT_TOKEN"))

@@ -2,16 +2,17 @@
 
 import os
 import json
-import logging
+from tqdm import tqdm
 
 from telethon.sync import TelegramClient, events
 from dotenv import dotenv_values
+from menu import get_main_menu
 from collections import deque
 from utils import debounce_async
-from menu import get_main_menu
+from utils.logging import logging, logging_setup_file, logging_setup_tqdm
 
-logging.basicConfig(format='[%(levelname)-7s %(asctime)s] %(name)s: %(message)s',
-                    level=logging.INFO)
+logging_setup_tqdm()
+logging_setup_file("automate-menu-builder-bot.log")
 
 BOT_USERNAME = 'Da7ee7_Civil_1st_Year_Bot'
 env = dotenv_values(".env")
@@ -89,6 +90,8 @@ else:
 
     process.append("/langar")
 
+progress = tqdm(total=len(process))
+
 
 def update_process_file():
     """ this is a queque but stored in a file to continue
@@ -104,6 +107,7 @@ def get_message():
     try:
         update_process_file()
         message = process.popleft()
+        progress.update(len(process))
         if len(process) == 0:
             if os.path.exists(process_file):
                 os.remove(process_file)
@@ -156,7 +160,6 @@ async def send_message(event: events.NewMessage.Event | None = None):
             button_name = message["name"]
             await click_inline_button(button_name, event)
 
-
 with telegram_client:
     @telegram_client.on(events.NewMessage(from_users=BOT_USERNAME))
     async def on_message_recieved(event):
@@ -165,6 +168,7 @@ with telegram_client:
         if error_occured or len(process) == 0 or recieved_message[0] == "❌":
             disconn_coro = telegram_client.disconnect()
             if disconn_coro:
+                progress.close()
                 await disconn_coro
         else:
             await send_message(event)
