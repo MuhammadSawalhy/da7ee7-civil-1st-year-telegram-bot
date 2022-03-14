@@ -1,29 +1,33 @@
 - name: 🤙 الفيديوهات
   submenu:
-  - name: د. نادية
-    messages:
-    - |
-      https://drive.google.com/drive/folders/1bWCTF9o9G3IVe7dsUh5s45-gkMbLoVQ3
-  - name: م. أحمد عبد الباسط
-    messages:
-    - |
-      https://www.youtube.com/playlist?list=PLR2RsKKRngz5mimLCDHfEz_6nqVprB0NT
-  - name: د. محمد العزب
-    messages:
-    - |
-      https://drive.google.com/drive/folders/11ffK3SHcNX6yeCWlMGNmOgoqBnb26-gV
-  - name: د. عصام البدراوي
-    messages:
-    - |
-      https://www.youtube.com/channel/UC6MMijvnpnjKjAX3T8-mkyQ
-  - name: د. محمد حسين
-    messages:
-    - |
-      https://www.youtube.com/playlist?list=PLzNHYjV-UuD1xfn6gbpEzd78dkhHbWi37
-  - name: د. محمود الصباغ
-    messages:
-    - |
-      https://www.youtube.com/playlist?list=PLTG_H6J7QeBuIJAwR1l8Qh9wzkSgAcsoA
+    -
+      - name: د. نادية
+        messages:
+        - |
+          https://drive.google.com/drive/folders/1bWCTF9o9G3IVe7dsUh5s45-gkMbLoVQ3
+      - name: م. أحمد عبد الباسط
+        messages:
+        - |
+          https://www.youtube.com/playlist?list=PLR2RsKKRngz5mimLCDHfEz_6nqVprB0NT
+    -
+      - name: د. محمد العزب
+        messages:
+        - |
+          https://drive.google.com/drive/folders/11ffK3SHcNX6yeCWlMGNmOgoqBnb26-gV
+    -
+      - name: د. عصام البدراوي
+        messages:
+        - |
+          https://www.youtube.com/channel/UC6MMijvnpnjKjAX3T8-mkyQ
+      - name: د. محمد حسين
+        messages:
+        - |
+          https://www.youtube.com/playlist?list=PLzNHYjV-UuD1xfn6gbpEzd78dkhHbWi37
+    -
+      - name: د. محمود الصباغ
+        messages:
+        - |
+          https://www.youtube.com/playlist?list=PLTG_H6J7QeBuIJAwR1l8Qh9wzkSgAcsoA
 - name: 🤙 المحاضرات
   submenu:
   - name: د. عصام فاروق البدراوي
@@ -44,8 +48,16 @@
     messages:
     - |
       ttps://drive.google.com/drive/folders/1AFfDN06x64-n2ORtkDKFCABk2d-7escp
-
 - name: 🤙 الامتحانات
   messages:
   - |
     https://drive.google.com/drive/folders/16d1pfBJLLJNfiA4qYBbXrSVdtOMXnKMz
+- name: مراجعات
+  messages:
+  - اتفضل يا هندسة ❤️👇
+  - |
+    مذكرات المراجعة👇
+    https://drive.google.com/drive/folders/13Hz6IvxcTb0l5PdrIsGO1AWt0VPMVKlt
+    مذكرة الشفوي👇
+    https://drive.google.com/file/d/11HC6lm4qx2HAtEwBJp5L3f_X6oNZ8Ujv/view?usp=drivesdk
+
