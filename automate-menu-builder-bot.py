@@ -90,7 +90,8 @@ else:
 
     process.append("/langar")
 
-progress = tqdm(total=len(process))
+progress_len = len(process)
+progress = tqdm(total=progress_len)
 
 
 def update_process_file():
@@ -107,7 +108,7 @@ def get_message():
     try:
         update_process_file()
         message = process.popleft()
-        progress.update(len(process))
+        progress.update(progress_len - len(process))
         if len(process) == 0:
             if os.path.exists(process_file):
                 os.remove(process_file)
