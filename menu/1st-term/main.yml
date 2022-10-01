@@ -1,0 +1,23 @@
+-
+  - name: 🟣 علوم مواد
+    messages:
+    - جاري رفع الداتا، اصبر علينا يهندسة 🤌
+  - name: 🟢 إنشاءات
+    submenu: !include ./structure.yml
+-
+  - name: 🔵 رسم
+    # submenu: !include ./drawing.yml
+    messages:
+    - |
+      تفضل يا هندزة 👈👉
+      https://drive.google.com/drive/folders/1-cyexBPC5UifuYBuhUkrCaVD_xbcRj2a?usp=sharing
+
+  - name: 🔴 رياضيات
+    messages:
+    - جاري رفع الداتا، اصبر علينا يهندسة 🤌
+-
+  - name: 🟡 لغة
+    messages:
+    - جاري رفع الداتا، اصبر علينا يهندسة 🤌
+  - name: ⚫️ مساحة
+    submenu: !include ./space.yml

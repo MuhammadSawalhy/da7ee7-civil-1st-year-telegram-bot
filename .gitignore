@@ -4,6 +4,7 @@ menu/main.json
 
 env/
 __pycache__/
+node_modules/
 
 .env
 *.log

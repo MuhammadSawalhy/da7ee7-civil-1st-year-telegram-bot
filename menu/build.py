@@ -9,7 +9,7 @@ from os import path
 __dirname__ = path.dirname(__file__)
 
 entry_file_path = sys.argv[1] if len(sys.argv) > 1 else \
-    path.join(__dirname__, "./main.yml")
+    path.join(__dirname__, "./1st-term/main.yml")
 
 
 def polish_message_file_path(menu, yaml_file_path):

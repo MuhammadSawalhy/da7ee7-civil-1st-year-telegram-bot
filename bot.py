@@ -1,5 +1,6 @@
 import os
 import telebot
+from telebot.util import quick_markup
 from menu import get_main_menu
 from dotenv import dotenv_values
 from telebot import types
@@ -40,8 +41,11 @@ def update():
 
 def get_menu_markup(menu):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    # markup = types.InlineKeyboardMarkup()
     for row in menu:
         markup.row(*[types.KeyboardButton(button["name"]) for button in row])
+        # markup.row(*[types.InlineKeyboardButton(button["name"])
+        #            for button in row])
     navigation_row = [
         GO_BACK,
         MAIN_MENU,
@@ -49,6 +53,8 @@ def get_menu_markup(menu):
     if not is_prod:
         navigation_row.insert(0, REFRESH)
     markup.row(*[types.KeyboardButton(button) for button in navigation_row])
+    # markup.row(*[types.InlineKeyboardButton(button)
+    #            for button in navigation_row])
     return markup
 
 
@@ -105,11 +111,11 @@ def any_message(message):
     bot.send_message(
         message.chat.id,
         message_to_send,
-        reply_markup=markup
+        reply_markup=markup,
     )
 
     messages = button.get("messages") if button else None
-    
+
     if not messages:
         return
 
@@ -118,7 +124,7 @@ def any_message(message):
             continue
         logging.info("sending: " + msg.split("\n")[0])
         bot.send_message(message.chat.id, msg,
-                            disable_web_page_preview=True)
+                         disable_web_page_preview=True)
 
 
 print("🚀"*10)

@@ -1,10 +1,6 @@
 -
   - name: الترم الأول 1️⃣
-    messages:
-      - |
-        تفضل الدرايف كله يا هندسة 👇
-        https://drive.google.com/folderview?id=1ko3dWCIeO6pS3crmyz5J2Rv_n5gzkDAW
-    submenu: !include ./1st-term.yml
+    submenu: !include ./1st-term/main.yml
     command: /1
 
   # dirve: https://drive.google.com/drive/folders/1rAS9X_RlOdCw8fBvBpXgw0WgkOKpDLOH

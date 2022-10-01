@@ -1,0 +1,67 @@
+- name: محاضرات 📓
+  messages:
+  - جاري رفع الداتا، اصبر علينا يهندسة 🤌
+
+- name: مذكرات 📖
+  submenu:
+  - name: م. محمد بكر
+    messages:
+    - |
+      1. Reaction
+      https://bit.ly/3y8PT2V
+      
+      2. Reaction
+      https://bit.ly/3y7uqY4
+      
+      3. Stability
+      https://bit.ly/3y5n8Uw
+  - name: م. محمد صلاح
+    messages:
+    - |
+      مذكرة 1
+      https://bit.ly/3URQeAy
+      
+      مذكرة 2
+      https://bit.ly/3Syl13V
+      
+      مذكرة 3
+      https://bit.ly/3y5nhHy
+      
+      مذكرة 4
+      https://bit.ly/3y6MUry
+      
+      مذكرة 5
+      https://bit.ly/3y9xa7o
+      
+      مذكرة 6
+      https://bit.ly/3y6mJBu
+      
+      مذكرة 7
+      https://bit.ly/3y6v5ZM
+  - name: مذكرات المهندس
+    messages:
+    - |
+      مذكرة 1
+      https://bit.ly/3y6mJS0
+
+      مذكرة 2
+      https://bit.ly/3y78g89
+
+      مذكرة 3
+      https://bit.ly/3fzmvfN
+
+- name: مراجعة وامتحانات 📑
+  messages:
+  - |
+    امتحان الميد
+    https://bit.ly/3y6fwBw
+
+    مراجعة الشفوي
+    https://bit.ly/3SqZ86L
+
+    فاينال 2019
+    https://bit.ly/3y6v2gy
+
+    فاينال 2020
+    https://bit.ly/3ULJYua
+    https://bit.ly/3UR8cmW
