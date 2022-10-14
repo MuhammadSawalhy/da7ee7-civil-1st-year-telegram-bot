@@ -3,10 +3,10 @@
     messages:
     - |
       نظري الشد
-      https://drive.google.com/drive/folders/1-1qPdMvWTSPwNtrF2zbDgAsRcz3CZZ8_?usp=sharing
+      https://bit.ly/3TmoJ0t
 
       مذكرات م. أحمد يسيري
-      https://drive.google.com/drive/folders/1CZnwOTTF_4GtOdP3ZPSVglPmCJ9c0_BQ?usp=sharing
+      https://bit.ly/3EL9eLK
 
   - name: 🟢 إنشاءات
     submenu: !include ./structure.yml
@@ -16,7 +16,7 @@
     messages:
     - |
       تفضل يا هندزة 👈👉
-      https://drive.google.com/drive/folders/1-cyexBPC5UifuYBuhUkrCaVD_xbcRj2a?usp=sharing
+      https://bit.ly/3z4ZJDx
 
   - name: 🔴 رياضيات
     messages:

@@ -44,13 +44,14 @@ def handle_file(file):
             print("No links found!")
             return
 
-        questions = [inquirer.Checkbox(
-            'links',
-            message="What links to shorten?",
-            choices=links,
-            default=links
-        )]
-        answers = inquirer.prompt(questions)
+        # questions = [inquirer.Checkbox(
+        #     'links',
+        #     message="What links to shorten?",
+        #     choices=links,
+        #     default=links
+        # )]
+        # answers = inquirer.prompt(questions)
+        answers = { 'links': links }
 
         if not answers:
             print("No links found!")
@@ -67,8 +68,15 @@ def handle_file(file):
 
 
 if __name__ == "__main__":
-    file = sys.argv[1]
-    if not path.exists(file):
-        print(f"file doesn't exist: {file}", file=sys.stderr)
-        sys.exit(1)
-    handle_file(file)
+    if len(sys.argv) < 2:
+        for file in sys.stdin.read().strip().split("\n"):
+            if not path.exists(file):
+                print(f"file doesn't exist: {file}", file=sys.stderr)
+                sys.exit(1)
+            handle_file(file)
+    else:
+        file = sys.argv[1]
+        if not path.exists(file):
+            print(f"file doesn't exist: {file}", file=sys.stderr)
+            sys.exit(1)
+        handle_file(file)
