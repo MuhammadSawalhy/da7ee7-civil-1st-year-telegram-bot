@@ -1,0 +1,68 @@
+-
+  - name: محاضرات 📘
+    messages:
+    - |
+      محاضرة 1
+      https://drive.google.com/file/d/10Gdpei6PBh801hzdnGb1dq-MgfI9YiVU/view?usp=sharing
+      محاضرة 2
+      https://drive.google.com/file/d/10IfyswZ8vl-1nGI_77m0z6lrsMHGqt3W/view?usp=sharing
+      محاضرة 3
+      https://drive.google.com/file/d/10KWyGRqwSl6GxzeQfUJYKmcaJIfqnYcy/view?usp=sharing
+      محاضرة 4
+      https://drive.google.com/file/d/10OYbJWCVto7fvaJ53vvAKxwoeHWDL4ju/view?usp=sharing
+      محاضرة 5
+      https://drive.google.com/file/d/10PtRwxAxHipblzL-7tU7EVFTTVlE3DeR/view?usp=sharing
+      محاضرة 6
+      https://drive.google.com/file/d/10V6cWlNHQzjIwnvrib-nIqRJhPrco1xJ/view?usp=sharing
+      محاضرة 7
+      https://drive.google.com/file/d/10cjj8b5sVvwrr1koL00808JXjQFjWJph/view?usp=sharing
+      محاضرة 8
+      https://drive.google.com/file/d/10pe2klfFmo7adyTcPFzMBKxIHvPNYFV9/view?usp=sharing
+      محاضرة 9
+      https://drive.google.com/file/d/10psj4YhHLPzZfc5Gv1DCI40ylLE1b_5h/view?usp=sharing
+      محاضرة 10
+      https://drive.google.com/file/d/10rPriW_ThZ8R6zndxOKsXYZ_bAamH__H/view?usp=sharing
+
+  - name: مذكرات 📓
+    submenu:
+    - name: مذكرات المهندس 📙
+      messages:
+      - |
+        مذكرة 1
+        https://drive.google.com/file/d/107lqJ0Z2LsZ7g7-lCX9wBJ_Y0I2uHtBv/view?usp=sharing
+        مذكرة 2
+        https://drive.google.com/file/d/10F9ic96Ox64tNSbILwlH-VKHIIj95Co6/view?usp=sharing
+    - name: م. هشام
+      messages:
+      - |
+        مذكرة 1
+        https://drive.google.com/file/d/12maHMf5NvrE9oJqz-6vc5Mjzb7BPN6vj/view?usp=sharing
+        مذكرة 2
+        https://drive.google.com/file/d/12t6iD6if06HcJBQ4wfTaWuhXLwwe8bop/view?usp=sharing
+        مذكرة 3
+        https://drive.google.com/file/d/12wMIuiw6td-SrYeecywyLtAgmfhoWUuy/view?usp=sharing
+        مذكرة 4
+        https://drive.google.com/file/d/13-zSpxCbXzgy6I70y4fLqIVGEGPFoL5B/view?usp=sharing
+        مذكرة 5
+        https://drive.google.com/file/d/1340oDA85IW_AuSzGL3S-bqW_QtWDyTq5/view?usp=sharing
+        مذكرة 8
+        https://drive.google.com/file/d/13DTODiFu8XS57K3zdNiA3d9Erl8Y6YIl/view?usp=sharing
+        مذكرة 9
+        https://drive.google.com/file/d/13FG5qCYRCl9PkFPrYgu-0RHTW_K4_BFp/view?usp=sharing
+        مذكرة 11
+        https://drive.google.com/file/d/13N6i6NZF9Y6gghQMd6A8LG-Qv1K7b2Y4/view?usp=sharing
+        مذكرة 12
+        https://drive.google.com/file/d/13aboLgq4Ew-OnLj49lZaU4HegnDL1zf_/view?usp=sharing
+
+-
+  - name: عملي 🛸
+    messages:
+    - |
+      اتفضل يا غالي 👇
+      https://drive.google.com/file/d/1-xilcPR49KBOGewz-8NubWXv5B_1CHG4/view?usp=sharing
+
+  - name: امتحانات 📝
+    messages:
+    - |
+      اتفضل يا غالي 👇
+      https://drive.google.com/drive/folders/1-vOT5yygzS8S1u-1xF8GVU7WeO9Hpq2j?usp=sharing

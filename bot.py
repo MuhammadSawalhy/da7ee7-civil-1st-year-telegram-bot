@@ -22,12 +22,7 @@ is_prod = os.environ.get("BOT_ENV") == "production"
 
 def update():
     global all_buttons, main_menu
-
-    try:
-        main_menu = get_main_menu()
-    except Exception as e:
-        logging.error(e)
-
+    main_menu = get_main_menu()
     main_menu_copy = main_menu.copy()
     all_buttons = {}
 

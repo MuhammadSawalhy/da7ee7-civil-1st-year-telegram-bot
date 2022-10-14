@@ -3,7 +3,7 @@ import sys
 import requests
 from dotenv import dotenv_values
 from os import path
-from datetime import datetime
+import inquirer
 
 env = dotenv_values(".env")
 
@@ -34,12 +34,33 @@ def handle_file(file):
     bitly_re = re.compile(r"^https?://bit.ly")
     with open(file, "r+") as f:
         content = f.read()
+        links = set()
         for link in link_re.findall(content):
-            if bitly_re.match(link):
+            if bitly_re.match(link) or len(link) <= 60: # the link length is objective
                 continue
+            links.add(link)
+
+        if not links:
+            print("No links found!")
+            return
+
+        questions = [inquirer.Checkbox(
+            'links',
+            message="What links to shorten?",
+            choices=links,
+            default=links
+        )]
+        answers = inquirer.prompt(questions)
+
+        if not answers:
+            print("No links found!")
+            return
+
+        for link in answers['links']:
             short = shorten_url(link)
             print(f"{link} => {short}")
             content = content.replace(link, short)
+
         f.seek(0)
         f.write(content)
         f.truncate()

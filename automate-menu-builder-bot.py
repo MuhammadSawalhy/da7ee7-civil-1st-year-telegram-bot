@@ -44,6 +44,7 @@ def build_button(button, first_in_row=False):
         process.append({"type": "click-button", "name": "*⃣"})
         process.append("Assign Command")
         process.append(command)
+        process.append("Move by Command (▶️ On)")
         process.append("✅ Confirm")
         process.append("🔚 Exit Button Settings")
         # to select it again so that the new
