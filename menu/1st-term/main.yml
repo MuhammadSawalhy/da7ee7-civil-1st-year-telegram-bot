@@ -33,6 +33,6 @@
   - name: برمجة 🔹
     submenu: !include ./old/programming.yml
   - name: ماتريال 🔹
-    messages: !include ./old/materials.yml
+    submenu: !include ./old/materials.yml
     
   
