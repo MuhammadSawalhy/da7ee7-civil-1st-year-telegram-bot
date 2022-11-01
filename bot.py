@@ -22,7 +22,7 @@ is_prod = os.environ.get("BOT_ENV") == "production"
 
 def update():
     global all_buttons, main_menu
-    main_menu = get_main_menu()
+    main_menu = get_main_menu("./cse1/main.yml")
     main_menu_copy = main_menu.copy()
     all_buttons = {}
 
@@ -38,6 +38,8 @@ def get_menu_markup(menu):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     # markup = types.InlineKeyboardMarkup()
     for row in menu:
+        row = [*row]
+        row.reverse()
         markup.row(*[types.KeyboardButton(button["name"]) for button in row])
         # markup.row(*[types.InlineKeyboardButton(button["name"])
         #            for button in row])

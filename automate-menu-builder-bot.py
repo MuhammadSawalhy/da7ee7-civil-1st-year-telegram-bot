@@ -3,6 +3,7 @@
 import os
 import json
 import asyncio
+import sys
 from tqdm import tqdm
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
@@ -16,7 +17,7 @@ from utils.logging import logging, logging_setup_file, logging_setup_tqdm
 logging_setup_tqdm()
 logging_setup_file("automate-menu-builder-bot.log")
 
-BOT_USERNAME = 'ZagEngTaskSimpleTelegramBot'
+BOT_USERNAME = 'da7ee7_3rd_civil_bot'
 # BOT_USERNAME = 'Da7ee7_Civil_1st_Year_Bot'
 env = dotenv_values(".env")
 telegram_client = TelegramClient('telethon', env.get(
@@ -27,8 +28,9 @@ telegram_client = TelegramClient('telethon', env.get(
 # should stop the next process step
 error_occured = False
 process_file = "automate-menu-builder-bot.process.log"
-parent_button = None
-# parent_button = "الترم الأول 🥇"
+# parent_button = None
+parent_button = "الترم الأول 🥇"
+parent_button = "🔹 Concrete"
 process: deque[str | dict[str, str]] = deque([
     "/start",
     "/langen",
@@ -39,7 +41,7 @@ def build_button(button, first_in_row=False):
     process.append("➕ Add Button")
     process.append(button["name"])
     if not first_in_row:
-        process.append({"type": "click-button", "name": "⬆"})
+        process.append({"type": "click-button", "name": "⬆️"})
     if command := button.get("command"):
         process.append({"type": "click-button", "name": "*⃣"})
         process.append("Assign Command")
@@ -107,7 +109,6 @@ else:
 
 progress_len = len(process)
 progress = tqdm(total=progress_len)
-
 
 def update_process_file():
     """ this is a queque but stored in a file to continue

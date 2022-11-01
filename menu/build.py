@@ -8,9 +8,6 @@ from os import path
 
 __dirname__ = path.dirname(__file__)
 
-entry_file_path = sys.argv[1] if len(sys.argv) > 1 else \
-    path.join(__dirname__, "./1st-term/main.yml")
-
 
 def polish_message_file_path(menu, yaml_file_path):
     if type(menu) is not list:
@@ -79,16 +76,18 @@ def polish_menu(menu, menu_path, all_buttons, all_commands):
                 polish_menu(submenu, button_path, all_buttons, all_commands)
 
 
-def get_main_menu():
-    with open(entry_file_path, 'r') as f:
+def get_main_menu(file):
+    with open(file, 'r') as f:
         main_menu = yaml.load(f, YamlIncludeLoader)
         if type(main_menu) is not list:
             main_menu = [[main_menu]]
-        polish_message_file_path(main_menu, entry_file_path)
+        polish_message_file_path(main_menu, file)
         polish_menu(main_menu, [], {}, {})
     return main_menu
 
 
 if __name__ == "__main__":
-    main_menu = get_main_menu()
+    entry_file_path = sys.argv[1] if len(sys.argv) > 1 else \
+    path.join(__dirname__, "./main.yml")
+    main_menu = get_main_menu(entry_file_path)
     print(json.dumps(main_menu))
