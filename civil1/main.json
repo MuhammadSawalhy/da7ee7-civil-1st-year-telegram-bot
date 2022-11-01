@@ -1,0 +1,865 @@
+[
+  [
+    {
+      "name": "الترم الأول",
+      "messages": [
+        "تفضل الدرايف كله يا هندسة 👇\nhttps://drive.google.com/folderview?id=1ko3dWCIeO6pS3crmyz5J2Rv_n5gzkDAW\n"
+      ],
+      "menu_buttons": [],
+      "command": "/1",
+      "path": [
+        "الترم الأول"
+      ]
+    },
+    {
+      "name": "الترم الثاني",
+      "messages": [
+        "اختَرْ يا هندسة من القايمة تحت اللي أنت عايزه 👇"
+      ],
+      "menu_buttons": [
+        [
+          {
+            "name": "رياضيات Math",
+            "menu_buttons": [
+              [
+                {
+                  "name": "محاضرات",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/12_tfnrEKkqgPPMBqrhCPvAkVNIbKL2qn\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "رياضيات Math",
+                    "محاضرات"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "مذكرات",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/12o5Nn8EcWYb6otwH_5xnCETm4myo_9Oj\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "رياضيات Math",
+                    "مذكرات"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "شيتات",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/18LJgfLzxHESSPhZ79OJ6taVVEyi5Gbed\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "رياضيات Math",
+                    "شيتات"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "تلخيص",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/176aFQj50tzsm6Q9aB0cGJIjiQgJ8VpvE\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "رياضيات Math",
+                    "تلخيص"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "امتحانات",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/12pfIQagBGKyZnysYhItFl2V38mNGD_Cm"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "رياضيات Math",
+                    "امتحانات"
+                  ]
+                }
+              ]
+            ],
+            "path": [
+              "الترم الثاني",
+              "رياضيات Math"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "إنشاءات Structure",
+            "menu_buttons": [
+              [
+                {
+                  "name": "👈 فيديوهات",
+                  "menu_buttons": [
+                    [
+                      {
+                        "name": "فيديوهات الدكاترة",
+                        "menu_buttons": [
+                          [
+                            {
+                              "name": "د. مجدي خلف",
+                              "messages": [
+                                "https://www.youtube.com/playlist?list=PLODsgjy_5GdqwrAaE1S6R543lZqxunQI6\n"
+                              ],
+                              "path": [
+                                "الترم الثاني",
+                                "إنشاءات Structure",
+                                "👈 فيديوهات",
+                                "فيديوهات الدكاترة",
+                                "د. مجدي خلف"
+                              ]
+                            }
+                          ],
+                          [
+                            {
+                              "name": "د. عبد الله سلامة",
+                              "messages": [
+                                "1. https://www.youtube.com/watch?v=-CEuOaKklUY&t=541s\n\n2. https://www.youtube.com/watch?v=NweFeJEMzUE\n\n3. https://www.youtube.com/watch?v=dWxbMJzNw38\n"
+                              ],
+                              "path": [
+                                "الترم الثاني",
+                                "إنشاءات Structure",
+                                "👈 فيديوهات",
+                                "فيديوهات الدكاترة",
+                                "د. عبد الله سلامة"
+                              ]
+                            }
+                          ],
+                          [
+                            {
+                              "name": "د. طارق عثمان",
+                              "messages": [
+                                "1. https://www.youtube.com/watch?v=xE5X-68pODc&t=2997s\n\n2. https://www.youtube.com/watch?v=rMrPxerpzHE&t=1994s\n\n3. https://www.youtube.com/watch?v=a5H5bPIB6N0\n\n4. https://www.youtube.com/watch?v=lgMbIx8mZAs\n\n5. https://www.youtube.com/watch?v=8gtGEuP4usg\n"
+                              ],
+                              "path": [
+                                "الترم الثاني",
+                                "إنشاءات Structure",
+                                "👈 فيديوهات",
+                                "فيديوهات الدكاترة",
+                                "د. طارق عثمان"
+                              ]
+                            }
+                          ]
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "إنشاءات Structure",
+                          "👈 فيديوهات",
+                          "فيديوهات الدكاترة"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "فيديوهات المعيدين",
+                        "menu_buttons": [
+                          [
+                            {
+                              "name": "م. محمد صلاح",
+                              "messages": [
+                                "https://www.youtube.com/playlist?list=PLR2RsKKRngz7TgBOq1yaaARjAMGGoP2V7\n"
+                              ],
+                              "path": [
+                                "الترم الثاني",
+                                "إنشاءات Structure",
+                                "👈 فيديوهات",
+                                "فيديوهات المعيدين",
+                                "م. محمد صلاح"
+                              ]
+                            }
+                          ],
+                          [
+                            {
+                              "name": "م. الليثي",
+                              "messages": [
+                                "https://www.youtube.com/playlist?list=PLCaeqXCPMbYm5qgnnmgXBd94VrsPBq524\n"
+                              ],
+                              "path": [
+                                "الترم الثاني",
+                                "إنشاءات Structure",
+                                "👈 فيديوهات",
+                                "فيديوهات المعيدين",
+                                "م. الليثي"
+                              ]
+                            }
+                          ],
+                          [
+                            {
+                              "name": "م. عسكر",
+                              "messages": [
+                                "https://www.youtube.com/playlist?list=PLEeNs4S0UvDzohtnBbBgEVIEsyxofmND6\n"
+                              ],
+                              "path": [
+                                "الترم الثاني",
+                                "إنشاءات Structure",
+                                "👈 فيديوهات",
+                                "فيديوهات المعيدين",
+                                "م. عسكر"
+                              ]
+                            }
+                          ],
+                          [
+                            {
+                              "name": "م. محمد عبد الحميد",
+                              "messages": [
+                                "https://www.youtube.com/channel/UCiQ7CK0TaNe9df9-Zg5GB2A\n"
+                              ],
+                              "path": [
+                                "الترم الثاني",
+                                "إنشاءات Structure",
+                                "👈 فيديوهات",
+                                "فيديوهات المعيدين",
+                                "م. محمد عبد الحميد"
+                              ]
+                            }
+                          ]
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "إنشاءات Structure",
+                          "👈 فيديوهات",
+                          "فيديوهات المعيدين"
+                        ]
+                      }
+                    ]
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "إنشاءات Structure",
+                    "👈 فيديوهات"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "👈 المحاضرات",
+                  "messages": [
+                    "د. عبد الله سلامة \nhttps://drive.google.com/drive/u/0/folders/1-ggZy4xGHDqPu-UuqwTueT8pI-FUGpOJ\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "إنشاءات Structure",
+                    "👈 المحاضرات"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "👈 المذكرات",
+                  "menu_buttons": [
+                    [
+                      {
+                        "name": "م. محمد عبد الحميد 👷‍♂️",
+                        "messages": [
+                          "https://drive.google.com/drive/u/0/folders/107mIShBd2sQjzRn9xgNX0LGTQxIwlsMz\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "إنشاءات Structure",
+                          "👈 المذكرات",
+                          "م. محمد عبد الحميد 👷‍♂️"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "م. عبد الله مرواد 👷‍♂️",
+                        "messages": [
+                          "https://drive.google.com/drive/u/0/folders/11WIDfFBv8Ye1DNebJ9R7Zy5bztxE9iu0\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "إنشاءات Structure",
+                          "👈 المذكرات",
+                          "م. عبد الله مرواد 👷‍♂️"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "م. البلبيسي  👷‍♂️",
+                        "messages": [
+                          "https://drive.google.com/drive/u/0/folders/10kvQ3OX8d9vH8mF4bF4wDSwWRVtK7YRV\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "إنشاءات Structure",
+                          "👈 المذكرات",
+                          "م. البلبيسي  👷‍♂️"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "م. محمد عسكر 👷‍♂️",
+                        "messages": [
+                          "https://drive.google.com/drive/u/0/folders/11Y3FypjnDaNZBMbSSECNU0n8EIo4x62U\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "إنشاءات Structure",
+                          "👈 المذكرات",
+                          "م. محمد عسكر 👷‍♂️"
+                        ]
+                      }
+                    ]
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "إنشاءات Structure",
+                    "👈 المذكرات"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "👈 الكويزات",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/11d4UV55zwOJQhXoGdePRt0DPpHtNpSCY\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "إنشاءات Structure",
+                    "👈 الكويزات"
+                  ]
+                }
+              ]
+            ],
+            "path": [
+              "الترم الثاني",
+              "إنشاءات Structure"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "رسم Drawing",
+            "messages": [
+              "https://drive.google.com/drive/u/0/folders/1aM_agL-gS5CbmvauDlTkYGOlJmj9SS2g\n"
+            ],
+            "path": [
+              "الترم الثاني",
+              "رسم Drawing"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "ميكانيكا Mechanics",
+            "menu_buttons": [
+              [
+                {
+                  "name": "الكتاب 👉",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/1DlEa9Q_1KOJsm7otXeM3Od25M64EKpFY\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "ميكانيكا Mechanics",
+                    "الكتاب 👉"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "محاضرات 👉",
+                  "messages": [
+                    "د. أحمد زكي\nhttps://drive.google.com/drive/u/0/folders/1GRp-py-kkheNTn-UgECgRtEdCXIb0JxI\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "ميكانيكا Mechanics",
+                    "محاضرات 👉"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "مراجعة 👉",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/1KMs3FdF44ypEFKIMMG09g0yPd7EG8osd\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "ميكانيكا Mechanics",
+                    "مراجعة 👉"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "المذكرات 👉",
+                  "messages": [
+                    "م. شريف يوسف\nhttps://drive.google.com/drive/u/0/folders/138sNtbzgatr3ixLvXg-riVMcpgh9EpJ9\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "ميكانيكا Mechanics",
+                    "المذكرات 👉"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "امتحانات 👉",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/1I5WUKB9JFw-m51bekSi5WRry6zEI80GL\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "ميكانيكا Mechanics",
+                    "امتحانات 👉"
+                  ]
+                }
+              ]
+            ],
+            "path": [
+              "الترم الثاني",
+              "ميكانيكا Mechanics"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "إنسانيات Humanities",
+            "menu_buttons": [
+              [
+                {
+                  "name": "الكتاب ✋",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/1Gfl2dFZLzEGtyKB45FlZXCHym3M9Ywxv\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "إنسانيات Humanities",
+                    "الكتاب ✋"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "المذكرات ✋",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/1cILIeOTEv7hOndWY_jeEPQy7UPVqvwaF\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "إنسانيات Humanities",
+                    "المذكرات ✋"
+                  ]
+                }
+              ]
+            ],
+            "path": [
+              "الترم الثاني",
+              "إنسانيات Humanities"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "جيولوجيا Geology",
+            "menu_buttons": [
+              [
+                {
+                  "name": "🤙 الفيديوهات",
+                  "menu_buttons": [
+                    [
+                      {
+                        "name": "د. نادية",
+                        "messages": [
+                          "https://drive.google.com/drive/u/0/folders/1bWCTF9o9G3IVe7dsUh5s45-gkMbLoVQ3\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "جيولوجيا Geology",
+                          "🤙 الفيديوهات",
+                          "د. نادية"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "م. أحمد عبد الباسط",
+                        "messages": [
+                          "https://www.youtube.com/playlist?list=PLR2RsKKRngz5mimLCDHfEz_6nqVprB0NT\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "جيولوجيا Geology",
+                          "🤙 الفيديوهات",
+                          "م. أحمد عبد الباسط"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "د. محمد العزب",
+                        "messages": [
+                          "https://drive.google.com/drive/folders/11ffK3SHcNX6yeCWlMGNmOgoqBnb26-gV\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "جيولوجيا Geology",
+                          "🤙 الفيديوهات",
+                          "د. محمد العزب"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "د. عصام البدراوي",
+                        "messages": [
+                          "https://www.youtube.com/channel/UC6MMijvnpnjKjAX3T8-mkyQ\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "جيولوجيا Geology",
+                          "🤙 الفيديوهات",
+                          "د. عصام البدراوي"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "د. محمد حسين",
+                        "messages": [
+                          "https://www.youtube.com/playlist?list=PLzNHYjV-UuD1xfn6gbpEzd78dkhHbWi37\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "جيولوجيا Geology",
+                          "🤙 الفيديوهات",
+                          "د. محمد حسين"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "د. محمود الصباغ",
+                        "messages": [
+                          "https://www.youtube.com/playlist?list=PLTG_H6J7QeBuIJAwR1l8Qh9wzkSgAcsoA\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "جيولوجيا Geology",
+                          "🤙 الفيديوهات",
+                          "د. محمود الصباغ"
+                        ]
+                      }
+                    ]
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "جيولوجيا Geology",
+                    "🤙 الفيديوهات"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "🤙 المحاضرات",
+                  "menu_buttons": [
+                    [
+                      {
+                        "name": "د. عصام فاروق البدراوي",
+                        "messages": [
+                          "https://drive.google.com/drive/u/0/folders/1bdK-NaRsJl34hRzPv0wYNu-MBdiNMAF5\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "جيولوجيا Geology",
+                          "🤙 المحاضرات",
+                          "د. عصام فاروق البدراوي"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "د. نادية 🧕",
+                        "messages": [
+                          "https://drive.google.com/drive/u/0/folders/1c9sxhIzYpNbvEgJJkwnTtrtlCnrY0Usq\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "جيولوجيا Geology",
+                          "🤙 المحاضرات",
+                          "د. نادية 🧕"
+                        ]
+                      }
+                    ]
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "جيولوجيا Geology",
+                    "🤙 المحاضرات"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "🤙 المذكرات",
+                  "menu_buttons": [
+                    [
+                      {
+                        "name": "م. الصباغ",
+                        "messages": [
+                          "https://drive.google.com/drive/u/0/folders/1ACKLiU9v9Vi-81v0sKJHwO8gUkMANN03\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "جيولوجيا Geology",
+                          "🤙 المذكرات",
+                          "م. الصباغ"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "م. محمد مجدي",
+                        "messages": [
+                          "ttps://drive.google.com/drive/u/0/folders/1AFfDN06x64-n2ORtkDKFCABk2d-7escp\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "جيولوجيا Geology",
+                          "🤙 المذكرات",
+                          "م. محمد مجدي"
+                        ]
+                      }
+                    ]
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "جيولوجيا Geology",
+                    "🤙 المذكرات"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "🤙 الامتحانات",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/16d1pfBJLLJNfiA4qYBbXrSVdtOMXnKMz"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "جيولوجيا Geology",
+                    "🤙 الامتحانات"
+                  ]
+                }
+              ]
+            ],
+            "path": [
+              "الترم الثاني",
+              "جيولوجيا Geology"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "خرسانة Concrete",
+            "menu_buttons": [
+              [
+                {
+                  "name": "🤞 المحاضرات",
+                  "menu_buttons": [
+                    [
+                      {
+                        "name": "د. السيد أحمد",
+                        "messages": [
+                          "https://drive.google.com/drive/u/0/folders/1h1Rn5yux4wXUxeq94-giRKFRJFe_fayx\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "خرسانة Concrete",
+                          "🤞 المحاضرات",
+                          "د. السيد أحمد"
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "name": "د. لؤي",
+                        "messages": [
+                          "https://drive.google.com/drive/u/0/folders/1gS2LyDarbhI48Xlj-hPbqPyUrAV4ds5g\n"
+                        ],
+                        "path": [
+                          "الترم الثاني",
+                          "خرسانة Concrete",
+                          "🤞 المحاضرات",
+                          "د. لؤي"
+                        ]
+                      }
+                    ]
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "خرسانة Concrete",
+                    "🤞 المحاضرات"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "🤞 المذكرات",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/1-ChDUnOq8Ay8Q93t2J42dUmN3yrDkpO3\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "خرسانة Concrete",
+                    "🤞 المذكرات"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "🤞 المراجعة",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/1iXd8xkoK898Khk5iMEOYGAXzEEcnaoGq\n"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "خرسانة Concrete",
+                    "🤞 المراجعة"
+                  ]
+                }
+              ],
+              [
+                {
+                  "name": "🤞 الامتحانات",
+                  "messages": [
+                    "https://drive.google.com/drive/u/0/folders/1-4OcU5iUmaUc71oUcC-Z-tSa_dL6RnVs"
+                  ],
+                  "path": [
+                    "الترم الثاني",
+                    "خرسانة Concrete",
+                    "🤞 الامتحانات"
+                  ]
+                }
+              ]
+            ],
+            "path": [
+              "الترم الثاني",
+              "خرسانة Concrete"
+            ]
+          }
+        ]
+      ],
+      "command": "/2",
+      "path": [
+        "الترم الثاني"
+      ]
+    },
+    {
+      "name": "الجدول 📅",
+      "messages": [
+        {
+          "type": "file",
+          "path": "/home/ms/myp/da7ee7-civil-1st-year-telegram-bot/./menu_buttons/././schedule.pdf"
+        }
+      ],
+      "path": [
+        "الجدول 📅"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "تعريف بالمواد",
+      "menu_buttons": [],
+      "path": [
+        "تعريف بالمواد"
+      ]
+    },
+    {
+      "name": "تقسيمة الدرجات",
+      "path": [
+        "تقسيمة الدرجات"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "رابط المنصة",
+      "path": [
+        "رابط المنصة"
+      ]
+    },
+    {
+      "name": "قائمة البوتات",
+      "path": [
+        "قائمة البوتات"
+      ]
+    },
+    {
+      "name": "جروب الدفعة",
+      "path": [
+        "جروب الدفعة"
+      ]
+    }
+  ],
+  [
+    {
+      "name": "تواصل معنا 🙋🏻‍♂️",
+      "path": [
+        "تواصل معنا 🙋🏻‍♂️"
+      ]
+    },
+    {
+      "name": "❤️ صفحة الأسرة (زاج إنج)",
+      "messages": [
+        "https://www.facebook.com/zagengfamily/"
+      ],
+      "path": [
+        "❤️ صفحة الأسرة (زاج إنج)"
+      ]
+    },
+    {
+      "name": "المزيد 🤗",
+      "menu_buttons": [
+        [
+          {
+            "name": "مساقات تعليمية 👨🏻‍🏫",
+            "path": [
+              "المزيد 🤗",
+              "مساقات تعليمية 👨🏻‍🏫"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "معلومات عن الإيميل الجامعي",
+            "path": [
+              "المزيد 🤗",
+              "معلومات عن الإيميل الجامعي"
+            ]
+          }
+        ],
+        [
+          {
+            "name": "معلومات عن التربية العسكرية",
+            "path": [
+              "المزيد 🤗",
+              "معلومات عن التربية العسكرية"
+            ]
+          }
+        ]
+      ],
+      "path": [
+        "المزيد 🤗"
+      ]
+    }
+  ]
+]
