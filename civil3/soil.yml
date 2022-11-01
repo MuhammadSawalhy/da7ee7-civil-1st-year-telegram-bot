@@ -1,0 +1,144 @@
+-
+
+  - name: امتحانات ✏️
+    messages:
+    - |
+      اتفضل يا هندسة 🤗👇
+
+      Final 2022
+      https://bit.ly/3VuBwzX
+
+      Final revision 2021
+      https://bit.ly/3CWBTvP
+
+      Final 2020
+      https://bit.ly/3VxbrA8
+
+      Mid term 2021
+      https://bit.ly/3VGwO2e
+
+      Mid term 2020
+      https://bit.ly/3yJca7P
+
+      Mid term 2019
+      https://bit.ly/3eA8376
+      
+  - name: محاضرات 📂
+    submenu:
+    - name: د. إبراهيم
+      messages:
+      - |
+        1 - Ch 1 - Shear
+        https://bit.ly/3gcOYIF
+
+        3 - Ch 1 - Shear
+        https://bit.ly/3yFMuJe
+
+        4 - Ch 1 - Shear
+        https://bit.ly/3MGAAV5
+
+        5 - Revision Ch 1
+        https://bit.ly/3CZeM3F
+
+    - name: د. عصام
+      messages:
+      - |
+        Ch 1
+        https://bit.ly/3Vz6E15
+
+        Ch 2
+        https://bit.ly/3yLtVTY
+
+        Ch 5
+        https://bit.ly/3g9YTP7
+
+        Ch 6
+        https://bit.ly/3yF2vPq
+
+
+    - name: د. مروة
+      messages:
+      - |
+        Ch 3
+        https://bit.ly/3MwW7Q1
+
+-
+
+  - name: مذكرات 📙
+    submenu:
+    - name: م. أحمد صلاح
+      messages:
+      - |
+        Ch 1
+        https://bit.ly/3Vx6046
+
+        Ch 2
+        https://bit.ly/3yJcbIV
+
+        Ch 3
+        https://bit.ly/3D0uL1z
+
+        Ch 4
+        https://bit.ly/3D0uL1z
+
+        Ch 5
+        https://bit.ly/3D0uL1z
+
+        Ch 6
+        https://bit.ly/3eBOMCb
+    - name: م. أحمد عبد العال
+      messages:
+      - |
+        Ch 1
+        https://bit.ly/3MyD6MZ
+
+        Ch 2
+        https://bit.ly/3VHLYnZ
+
+        Ch 3
+        https://bit.ly/3VxbxYw
+
+        Ch 4
+        https://bit.ly/3VvXLWk
+
+        Ch 5
+        https://bit.ly/3VGwSz0
+
+        Ch 6
+        https://bit.ly/3MD8mdN
+    - name: م. محمود الصباغ
+      messages:
+      - |
+        Ch 1
+        https://bit.ly/3yFMA3y
+
+        Ch 2
+        https://bit.ly/3D0LRwo
+
+        Ch 3
+        https://bit.ly/3CWW1xY
+
+        Ch 4
+        https://bit.ly/3CWW1xY
+
+        Ch 5
+        https://bit.ly/3CZePMT
+
+        Ch 6
+        https://bit.ly/3MAtkdo
+
+  - name: مراجعة 🧠
+    messages:
+    - |
+      MCQ
+      https://bit.ly/3gcOWk1
+
+      Mid term revision
+      https://bit.ly/3MxmJ3t
+
+      Final revision 2021
+      https://bit.ly/3gcOT7P
+
+      Final revision
+      1. https://bit.ly/3VtUzu8
+      2. https://bit.ly/3Vx5Zx4

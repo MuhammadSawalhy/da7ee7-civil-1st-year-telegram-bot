@@ -1,0 +1,155 @@
+-
+
+  - name: فيديوهات 🎦
+    messages:
+    - |
+      🔴 قوائم تشغيل على اليوتيوب
+
+      م/ محمد ثروت
+      https://bit.ly/3RttG6x
+
+      م/ محمد منصور
+      https://bit.ly/3Cx2Fef
+
+      م/ سعيد البالسي
+
+      https://bit.ly/3CO0Qtf
+
+      د/ سيد أحمد
+      https://bit.ly/3VgtaM1
+    - |
+      🔵 فيديوهات م/ سعيد البالسي
+
+      Biaxial Moment
+      https://bit.ly/3MAY4Lk
+
+      Design of Sections
+      https://bit.ly/3gaiXB0
+
+      Examples on Tortional Moments
+      https://bit.ly/3TaPzJl
+
+      Long Column
+      https://bit.ly/3gbNhee
+
+      Reinforcement Details
+      https://bit.ly/3MD8uu4
+
+      Short Columns
+      https://bit.ly/3Sk4y2B
+
+      Tortional Moment
+      https://bit.ly/3TaPKnZ
+
+  - name: امتحانات 💠
+    messages:
+    - |
+      اتفضل يا خويا امتحانات ميدترمات 👇✏
+      https://bit.ly/3S03bWl
+
+    - |
+      وخد كمان امتحانات الفاينال ودوس مترحمش 👇🖊
+      https://bit.ly/3T5eGNP
+
+-
+
+  - name: محاضرات ✳️
+    submenu:
+    - name: د. عمر جمال
+      messages:
+      - |
+        Lecture 1
+        https://bit.ly/3Sa1fKV
+
+        Lecture 2
+        https://bit.ly/3S5Zn6a
+
+    - name: د. محمد رضا
+      messages:
+      - |
+        Lecture 1
+        https://bit.ly/3Mxx5jQ
+
+        Lecture 2
+        https://bit.ly/3Sa1ghX
+
+        Lecture 3
+        https://bit.ly/3MxTHAL
+
+        Lecture 4
+        https://bit.ly/3MxTHAL
+
+    - name: د. سيد أحمد
+      messages:
+      - |
+        Lecture 1
+        https://bit.ly/3Mxx27E
+
+        Lecture 2
+        https://bit.ly/3T9gaqm
+
+        Lecture 3
+        https://bit.ly/3MGL2Ms
+
+        Lecture 4
+        https://bit.ly/3S56Y4I
+
+        Lecture 5
+        https://bit.ly/3S5yPSn
+
+        Lecture 6
+        https://bit.ly/3T3FFcA
+
+        Lecture 7
+        https://bit.ly/3T7LRA4
+        
+    - name: د. محمد عمارة
+      messages:
+      - |
+        Design for Shear
+        https://bit.ly/3T7LRA4
+
+        Torsion 1
+        https://bit.ly/3T7LRA4
+
+        Torsion 2
+        https://bit.ly/3T3BPjJ
+
+        Flat Slab
+        https://bit.ly/3gaiXku
+
+  - name: مذكرات 📕
+    messages:
+    - |
+      اتفضل يا هندسة 👇
+
+      🔹 م. محمد منصور
+      https://bit.ly/3MwXjTD
+
+      🔹 م. مصطفى صبري
+      https://bit.ly/3gaiYF4
+
+      🔹 م. محمد ثورت
+      https://bit.ly/3T3GBNP
+
+      🔹 م. سيد البالسي
+      https://bit.ly/3T8LDc4
+
+      🔹 م. أحمد عبد الله
+      https://bit.ly/3MAKgAD
+
+-
+
+  - name: رسومات وجداول 🖼
+    messages:
+    - |
+      اتفضل يا هندسة 👇
+
+      https://bit.ly/3MAKgAD
+
+  - name: كويزات ❓
+    messages:
+    - |
+      اتفضل يا هندسة 👇
+
+      https://bit.ly/3TaPEg7
