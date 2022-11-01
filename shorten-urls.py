@@ -1,17 +1,35 @@
+import os
 import re
 import sys
 import requests
 from dotenv import dotenv_values
 from os import path
 import inquirer
+import json
 
 env = dotenv_values(".env")
 
 API_URL = "https://api-ssl.bitly.com/v4/shorten"
 BITLY_TOKEN = env.get("BITLY_TOKEN")
 
+if not os.path.exists("./shorten-urls.json.log"):
+    with open("./shorten-url.log.json", 'w') as f:
+        f.write("{}")
+
+cache_file = open("./shorten-urls.json.log", "r+")
+cache = json.loads(cache_file.read())
+
+
+def save_in_cache(url, short):
+    cache[url] = short
+    cache_file.seek(0)
+    cache_file.write(json.dumps(cache, indent=2))
+    cache_file.truncate()
+
 
 def shorten_url(url):
+    if url in cache:
+        return cache[url]
     payload = {
         "long_url": url,
         "tags": [
@@ -24,7 +42,9 @@ def shorten_url(url):
     }
     r = requests.post(f"{API_URL}", json=payload, headers=headers)
     res = r.json()
-    return res["link"]
+    short = res["link"]
+    save_in_cache(url, short)
+    return short
 
 
 def handle_file(file):

@@ -6,7 +6,7 @@
 - name: المواد 📚
   submenu:
   -
-    # drive: https://drive.google.com/drive/folders/19n8rfodgKUT6H5bFsarbl-E7zY1fQj3w
+    # drive: https://bit.ly/3T0hsTw
     - name: الترم الأول 1️⃣
       submenu: !include ./1st-term/main.yml
       command: /1
@@ -21,7 +21,7 @@
       messages:
       - |
         رابط المنصة الرقمية الجديدة 💚👇
-        http://engstudent.eps.zu.edu.eg/Views/StudentViews/StudentLogin
+        https://bit.ly/3fqIyW4
     - name: تعريف المواد ❔
 
 - name: الجداول 📅
