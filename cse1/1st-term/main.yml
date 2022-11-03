@@ -16,7 +16,9 @@
 
 -
   - name: برمجة 💻
+    submenu: !include ./programming.yml
 
   - name: إحصاء 📊
+    submenu: !include stats.yml
 
   

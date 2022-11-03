@@ -1,0 +1,201 @@
+-
+
+  - name: مذكرات 📑
+    submenu:
+    - name: م. أحمد عثمان
+      messages:
+      - |
+        1- https://bit.ly/3rEUbbZ
+
+        2- https://bit.ly/3cGAKeX
+
+        3- https://bit.ly/3rB7WIU
+
+        4- https://bit.ly/3cDZUe6
+
+        5- https://bit.ly/3cEFD80
+
+        6- https://bit.ly/31E4O4s
+
+        7- https://bit.ly/3sJnxrh
+
+        8- https://bit.ly/2PI6tmN
+
+        9- https://bit.ly/3cE5dKm
+
+    - name: م. هشام عبد الله
+      messages:
+      - |
+        1- https://bit.ly/3rGQ8fm
+
+        2- https://bit.ly/3cHONRj
+
+        3- https://bit.ly/3mburmt
+
+        4- https://bit.ly/3cG2xvS
+
+        5- https://bit.ly/3cIogmI
+
+        6- https://bit.ly/31CSNMz
+
+        7- http://bit.ly/3sNRMxm
+
+        8- https://bit.ly/31D9mrH
+
+        9- https://bit.ly/3sIqh8g
+
+        10- https://bit.ly/3sJCbi3
+
+        11- https://bit.ly/3cIpaQ8
+
+        12- https://bit.ly/3cHJWQg
+
+        13- https://bit.ly/3rHKIB1
+
+        14- https://bit.ly/3sJRqaG
+
+        15- https://bit.ly/3cGJL7J
+
+    - name: د. عمر زامل
+      messages:
+      - |
+        1- https://bit.ly/31Fa1cm
+
+        2- https://bit.ly/3sHoOiv
+
+        3- https://bit.ly/3cIpLBm
+
+        4- https://bit.ly/2PIWIoq
+
+        5- https://bit.ly/2PNwykm
+
+        6.1- https://bit.ly/3cE2jp5
+
+        6.2- https://bit.ly/31CFKL1
+
+        7- https://bit.ly/31EDDqg
+
+        8- https://bit.ly/3sHGg6D
+
+        9- https://bit.ly/3cLxfE5
+
+        10- https://bit.ly/2OdMJan
+
+        11- https://bit.ly/3mc6o6Z
+
+        12- https://bit.ly/2PLNLeb
+
+        13- https://bit.ly/3rBccYU
+
+  - name: فيديوهات 📺
+    messages:
+    - |
+      بالي لست د/عمرو زامل
+      https://bit.ly/3dvgY6d
+
+      بالي لست م/حمدي سلطان
+      https://bit.ly/3v4vdVS
+
+-
+
+  - name: شيتات 📔
+    messages:
+    - |
+      شيت 1
+      http://bit.ly/3o9FPQO
+      
+      حل شيت 1
+      http://bit.ly/3oiW9Pu
+      
+      ----------------------
+      
+      شيت 2
+      http://bit.ly/3uHnixH
+
+      حل شيت2
+      http://bit.ly/3eFKR4w
+      
+      ----------------------
+
+      شيت 3
+      http://bit.ly/2QaM8qM
+      http://bit.ly/3eDx91Y
+
+      حل شيت 3
+      http://bit.ly/3eIOyGO
+
+  - name: محاضرات 📢
+    submenu:
+    - name: د. ميرا
+      messages:
+      - |
+        Lec1
+        https://drive.google.com/file/d/1QIuc_LYSgCu6nnpAL6-dzT4ZFK0RqYjI/view?usp=drivesdk
+
+        Lec2
+        https://drive.google.com/file/d/1QJK0hXEPjIPoFN5JDxa_FLI-f-l_mxbv/view?usp=drivesdk
+
+        Lec3
+        https://drive.google.com/file/d/1QNjxG6g3q6sIs35ycqtoQwu8RiDujAaK/view?usp=drivesdk
+
+        Lec4
+        https://drive.google.com/file/d/1QOgJleflR8EpG-G8k1FLSOBhPUgPXNzS/view?usp=drivesdk
+
+        Lec5
+        https://drive.google.com/file/d/1QPGvsyDGagWXmtLooXXvaOK-67cVsYQJ/view?usp=drivesdk
+
+        Lec6
+        https://drive.google.com/file/d/1QV8jAaWEYtEN-qKXUuvX0ifQffBBs7W_/view?usp=drivesdk
+
+        Lec7
+        https://drive.google.com/file/d/1QVDq2ZWTnHebxr9wKBOrE_dGUZZEFnuF/view?usp=drivesdk
+
+        Lec8
+        https://drive.google.com/file/d/1QVZYGH3h3gB2uqxAzhvhQROYVJQ-3AGg/view?usp=drivesdk
+
+        Lec9
+        https://drive.google.com/file/d/1QYdGiRIH48bIMqPb-2rKHNx0NRMCT-g6/view?usp=drivesdk
+
+        Lec10
+        https://drive.google.com/file/d/1QbU3GrUromXmZDzLbw5aF4SYmrNdoXsL/view?usp=drivesdk
+
+    - name: د. أحمد شاهين
+      messages:
+      - |
+        Lecture 1
+        https://drive.google.com/file/d/15aqyrfvY_yBkVwPb68t2Tu45csgmkMCx/view?usp=drivesdk
+
+        Lecture 2
+        https://drive.google.com/file/d/1fmaYP9-vdh8VaNTKnhlkrx9adAonGuXd/view?usp=drivesdk
+
+        Lecture 3
+        https://drive.google.com/file/d/15zTkkaKJgc9kfjFmTTEMsM8MkhrIvkrW/view?usp=drivesdk
+
+-
+
+  - name: معمل 🛸
+    messages:
+    - |
+      1- https://drive.google.com/file/d/15saeypH6NLc-Z0ieZUAMlQOsoZaeLauP/view?usp=drivesdk
+
+      2- https://drive.google.com/file/d/15x8g2ckeqbLO3EdmBEEJHO0A0tfHOczf/view?usp=drivesdk
+
+  - name: مراجعة 💠
+    messages:
+    - |
+      مراجعة إبراهيم الغريب
+      https://drive.google.com/drive/folders/15LJJpDEcOr0pRSGRXsdbTLYZ9P16Mc_r
+    - |
+      مذكرات مراجعة متنوعة
+      https://drive.google.com/drive/folders/1JHFUMYvf8gMgLo-7zUBanVliwKMN2lfu
+
+-
+
+  - name: امتحانات 📃
+    messages:
+    - |
+      فاينال 2018
+      https://drive.google.com/file/d/1QU5R3yVBhMd67G7f7yutMk9nEUk--0dL/view?usp=share_link
+
+      حل فاينال 2018
+      https://drive.google.com/file/d/1h-_cd3y3WQp4KZljCfByJj7pK7WdlX96/view?usp=share_link
